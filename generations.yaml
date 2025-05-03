@@ -1,0 +1,30 @@
+generations:
+  - name: "First Generation"
+    start_year: 1986
+    end_year: 1991
+    description: "The original Ford Taurus was a groundbreaking vehicle that revolutionized American car design with its aerodynamic, rounded styling that dramatically contrasted with the boxy vehicles of its era. Available as a four-door sedan and station wagon, it was a front-wheel drive midsize car built on Ford's DN5 platform. Powered by a 2.5L four-cylinder or 3.0L Vulcan V6 engine (with a high-output 3.8L V6 in the SHO performance model), it emphasized efficiency and modern engineering. The interior was equally innovative with an ergonomic, driver-focused design featuring a wraparound dashboard and convenient controls. The Taurus was a massive commercial success, becoming America's best-selling car from 1992 to 1996 and saving Ford from potential financial crisis. This generation established the Taurus as a revolutionary model that influenced automotive design throughout the industry."
+
+  - name: "Second Generation"
+    start_year: 1992
+    end_year: 1995
+    description: "The second-generation Taurus featured evolutionary styling that refined the aerodynamic design of its predecessor. Continuing as a sedan and wagon, it maintained the front-wheel drive layout with updated 3.0L and 3.8L V6 engines. The high-performance SHO added a more powerful 3.2L engine paired with a manual transmission. The interior saw improvements in quality and design with a continued focus on ergonomics. Safety features expanded to include standard dual airbags and available ABS. This generation maintained the Taurus's position as America's best-selling car, though competition from Japanese manufacturers intensified. The design continued to emphasize aerodynamics and modern styling, building on the revolutionary approach of the original model."
+
+  - name: "Third Generation"
+    start_year: 1996
+    end_year: 1999
+    description: "The third-generation Taurus featured controversial oval-themed styling that extended from its exterior shape to interior elements, including the rear window, instrument panel, and even control buttons. Available in sedan and wagon body styles, it continued with V6 engines including a 3.0L Vulcan and more powerful 3.0L Duratec. The SHO variant received a 3.4L V8 developed with Yamaha but lost its manual transmission option. The oval-dominated interior polarized consumers, though it maintained good ergonomics. This generation marked the beginning of the Taurus's decline in market position as its bold styling proved too radical for many mainstream buyers, allowing the Toyota Camry to take over as America's best-selling car."
+
+  - name: "Fourth Generation"
+    start_year: 2000
+    end_year: 2007
+    description: "The fourth-generation Taurus represented a retreat from the oval-dominated design of its predecessor, featuring more conventional styling in response to consumer feedback. The sedan and wagon continued on an updated version of the DN101 platform with revised 3.0L V6 engines. The interior was completely redesigned with a more traditional layout and improved materials. This generation saw the Taurus gradually repositioned downmarket, eventually becoming primarily a fleet vehicle as retail focus shifted to other Ford models. The wagon was discontinued in 2005, and in 2006 Ford announced plans to discontinue the Taurus nameplate entirely, temporarily replacing it with the Ford Five Hundred and Fusion before CEO Alan Mulally reversed this decision."
+
+  - name: "Fifth Generation (Former Five Hundred)"
+    start_year: 2008
+    end_year: 2009
+    description: "The fifth-generation Taurus was essentially a renamed and refreshed Ford Five Hundred, representing a significant shift to a larger, more formal sedan design. Based on the D3 platform with Volvo engineering influence, it featured a higher seating position marketed as 'Command Seating' and available all-wheel drive. Powered by a 3.5L Duratec V6, it emphasized safety and space over sporty characteristics. The interior was significantly larger than previous Taurus models with a more premium design and materials. This brief generation marked CEO Alan Mulally's decision to revive the Taurus nameplate for its brand equity, applying it to the slow-selling Five Hundred as part of a broader strategy to strengthen Ford's model lineup."
+
+  - name: "Sixth Generation"
+    start_year: 2010
+    end_year: 2019
+    description: "The final Taurus generation featured a substantial redesign with more aggressive, muscular styling while maintaining the D3 platform architecture. Exclusively offered as a sedan, it continued with front-wheel or all-wheel drive configurations. Engine options included the standard 3.5L V6, an optional EcoBoost 2.0L turbocharged four-cylinder, and a twin-turbocharged 3.5L EcoBoost V6 in the high-performance SHO model producing 365 HP. The interior offered improved materials, design, and technology, including the SYNC infotainment system. Despite these improvements, the Taurus faced declining sedan sales industry-wide and internal competition from the similarly-sized but more modern Fusion. Production ended in 2019 as part of Ford's strategic shift away from passenger cars in North America, marking the conclusion of a nameplate that had once revolutionized American car design and saved the company from financial crisis."
