@@ -1,0 +1,20 @@
+command_id: 7E0.0131
+test_cases:
+- response: '7E80441310089'
+  expected_values:
+    CLR_DIST: 137
+- response: 7E8044131008A
+  expected_values:
+    CLR_DIST: 138
+- response: 7E8044131008B
+  expected_values:
+    CLR_DIST: 139
+- response: 7E804413100A3
+  expected_values:
+    CLR_DIST: 163
+- response: 7E804413100A4
+  expected_values:
+    CLR_DIST: 164
+- response: "SEARCHING...\n7E8 04 41 31 00 89 "
+  expected_values:
+    CLR_DIST: 137
