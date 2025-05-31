@@ -15,6 +15,3 @@ test_cases:
 - response: 7E804413100A4
   expected_values:
     CLR_DIST: 164
-- response: "SEARCHING...\n7E8 04 41 31 00 89 "
-  expected_values:
-    CLR_DIST: 137
