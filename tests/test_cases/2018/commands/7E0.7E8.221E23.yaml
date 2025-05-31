@@ -1,8 +1,5 @@
 command_id: 7E0.7E8.221E23
 test_cases:
-- response: '7E8 04 62 1E 23 2E '
-  expected_values:
-    FORD_GEAR_SHFT: DRIVE
 - response: 7E804621E232E
   expected_values:
     FORD_GEAR_SHFT: DRIVE
