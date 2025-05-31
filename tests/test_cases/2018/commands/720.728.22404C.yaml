@@ -3,24 +3,15 @@ test_cases:
 - response: 7280662404C44DBE5
   expected_values:
     FORD_ODO_V3: 451274.1
-- response: 7280662404C44DBE6
-  expected_values:
-    FORD_ODO_V3: 451274.2
-- response: 7280662404C44DBEF
-  expected_values:
-    FORD_ODO_V3: 451275.1
-- response: 7280662404C44DBF5
-  expected_values:
-    FORD_ODO_V3: 451275.7
 - response: 7280662404C44DBFB
   expected_values:
     FORD_ODO_V3: 451276.3
-- response: 7280662404C44DCE4
+- response: 7280662404C44FA58
   expected_values:
-    FORD_ODO_V3: 451299.6
-- response: 7280662404C44DCE7
+    FORD_ODO_V3: 452053.6
+- response: 7280662404C44FED3
   expected_values:
-    FORD_ODO_V3: 451299.9
-- response: 7280662404C44DCF0
+    FORD_ODO_V3: 452168.3
+- response: 7280662404C45015B
   expected_values:
-    FORD_ODO_V3: 451300.8
+    FORD_ODO_V3: 452233.1
