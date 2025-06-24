@@ -1,10 +1,10 @@
 command_id: 726.72E.222815
 test_cases:
-- response: '72E056228150227'
+- response: 72E056228150227
   expected_values:
-    FORD_TP_RR: 27.55
-    FORD_TP_RRO: 27.55
-- response: '72E056228150297'
+    TAURUS_TP_RR: 27.55
+    TAURUS_TP_RRO: 27.55
+- response: 72E056228150297
   expected_values:
-    FORD_TP_RR: 33.15
-    FORD_TP_RRO: 33.15
+    TAURUS_TP_RR: 33.15
+    TAURUS_TP_RRO: 33.15

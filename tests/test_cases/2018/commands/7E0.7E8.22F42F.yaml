@@ -2,10 +2,10 @@ command_id: 7E0.7E8.22F42F
 test_cases:
 - response: 7E80462F42F00
   expected_values:
-    FORD_FLI: 0
+    TAURUS_FLI: 0
 - response: 7E80462F42F16
   expected_values:
-    FORD_FLI: 8.62745
+    TAURUS_FLI: 8.62745
 - response: 7E80462F42FB9
   expected_values:
-    FORD_FLI: 72.54902
+    TAURUS_FLI: 72.54902

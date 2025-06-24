@@ -2,25 +2,25 @@ command_id: 7E0.220338
 test_cases:
 - response: 7E805620338FF45
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF55
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF5F
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF89
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF8E
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF93
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF9C
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90
 - response: 7E805620338FF9F
   expected_values:
-    FORD_ETC_TRIM_LEARNED: 90
+    TAURUS_ETC_TRIM_LEARNED: 90

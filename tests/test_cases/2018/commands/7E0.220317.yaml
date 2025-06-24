@@ -1,29 +1,29 @@
 command_id: 7E0.220317
 test_cases:
-- response: '7E8056203170000'
+- response: 7E8056203170000
   expected_values:
-    FORD_VCT_EXH_DUTY: 0
+    TAURUS_VCT_EXH_DUTY: 0
 - response: 7E805620317199C
   expected_values:
-    FORD_VCT_EXH_DUTY: 20.00732
-- response: '7E8056203173433'
+    TAURUS_VCT_EXH_DUTY: 20.00732
+- response: 7E8056203173433
   expected_values:
-    FORD_VCT_EXH_DUTY: 40.78064
-- response: '7E8056203173664'
+    TAURUS_VCT_EXH_DUTY: 40.78064
+- response: 7E8056203173664
   expected_values:
-    FORD_VCT_EXH_DUTY: 42.49268
+    TAURUS_VCT_EXH_DUTY: 42.49268
 - response: 7E80562031738F3
   expected_values:
-    FORD_VCT_EXH_DUTY: 44.49158
+    TAURUS_VCT_EXH_DUTY: 44.49158
 - response: 7E8056203173C04
   expected_values:
-    FORD_VCT_EXH_DUTY: 46.88721
+    TAURUS_VCT_EXH_DUTY: 46.88721
 - response: 7E8056203173DDB
   expected_values:
-    FORD_VCT_EXH_DUTY: 48.32458
-- response: '7E8056203174054'
+    TAURUS_VCT_EXH_DUTY: 48.32458
+- response: 7E8056203174054
   expected_values:
-    FORD_VCT_EXH_DUTY: 50.25635
-- response: '7E8056203176666'
+    TAURUS_VCT_EXH_DUTY: 50.25635
+- response: 7E8056203176666
   expected_values:
-    FORD_VCT_EXH_DUTY: 79.99878
+    TAURUS_VCT_EXH_DUTY: 79.99878

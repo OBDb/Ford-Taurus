@@ -2,10 +2,10 @@ command_id: 7E0.22031A
 test_cases:
 - response: 7E80562031A0000
   expected_values:
-    FORD_VCT_INT_ERR: 0
+    TAURUS_VCT_INT_ERR: 0.0
 - response: 7E80562031AFFB1
   expected_values:
-    FORD_VCT_INT_ERR: 50
+    TAURUS_VCT_INT_ERR: 50
 - response: 7E80562031AFFFF
   expected_values:
-    FORD_VCT_INT_ERR: 50
+    TAURUS_VCT_INT_ERR: 50

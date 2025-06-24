@@ -2,10 +2,10 @@ command_id: 7E0.7E8.221E1C
 test_cases:
 - response: 7E805621E1C03AE
   expected_values:
-    FORD_TOT: 58.875
+    TAURUS_TOT: 58.875
 - response: 7E805621E1C05FE
   expected_values:
-    FORD_TOT: 95.875
+    TAURUS_TOT: 95.875
 - response: 7E805621E1C0607
   expected_values:
-    FORD_TOT: 96.4375
+    TAURUS_TOT: 96.4375

@@ -2,10 +2,10 @@ command_id: 7E0.220393
 test_cases:
 - response: 7E805620393017D
   expected_values:
-    FORD_AC_P: 110.51876
+    TAURUS_AC_P: 110.51876
 - response: 7E80562039302FF
   expected_values:
-    FORD_AC_P: 222.48791
-- response: '7E8056203930301'
+    TAURUS_AC_P: 222.48791
+- response: 7E8056203930301
   expected_values:
-    FORD_AC_P: 223.06806
+    TAURUS_AC_P: 223.06806

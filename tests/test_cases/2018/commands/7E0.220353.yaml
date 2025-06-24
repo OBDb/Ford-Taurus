@@ -1,17 +1,17 @@
 command_id: 7E0.220353
 test_cases:
-- response: '7E8056203530187'
+- response: 7E8056203530187
   expected_values:
-    FORD_BARO: 14.17585
-- response: '7E8056203530188'
+    TAURUS_BARO: 14.17585
+- response: 7E8056203530188
   expected_values:
-    FORD_BARO: 14.21211
-- response: '7E8056203530189'
+    TAURUS_BARO: 14.21211
+- response: 7E8056203530189
   expected_values:
-    FORD_BARO: 14.24836
+    TAURUS_BARO: 14.24836
 - response: 7E805620353018B
   expected_values:
-    FORD_BARO: 14.32087
+    TAURUS_BARO: 14.32087
 - response: 7E805620353018C
   expected_values:
-    FORD_BARO: 14.35713
+    TAURUS_BARO: 14.35713

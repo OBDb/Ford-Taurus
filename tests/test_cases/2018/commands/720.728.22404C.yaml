@@ -2,16 +2,16 @@ command_id: 720.728.22404C
 test_cases:
 - response: 7280662404C44DBE5
   expected_values:
-    FORD_ODO_V3: 451274.1
+    TAURUS_ODO_V3: 451274.1
 - response: 7280662404C44DBFB
   expected_values:
-    FORD_ODO_V3: 451276.3
+    TAURUS_ODO_V3: 451276.3
 - response: 7280662404C44FA58
   expected_values:
-    FORD_ODO_V3: 452053.6
+    TAURUS_ODO_V3: 452053.6
 - response: 7280662404C44FED3
   expected_values:
-    FORD_ODO_V3: 452168.3
+    TAURUS_ODO_V3: 452168.3
 - response: 7280662404C45015B
   expected_values:
-    FORD_ODO_V3: 452233.1
+    TAURUS_ODO_V3: 452233.1
