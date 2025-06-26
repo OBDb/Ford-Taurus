@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221E23
+test_cases:
+- expected_values:
+    FORD_GEAR_SHFT: MANUAL
+  response: 7E804621E230A
+- expected_values:
+    FORD_GEAR_SHFT: DRIVE
+  response: 7E804621E232E
+- expected_values:
+    FORD_GEAR_SHFT: NEUTRAL
+  response: 7E804621E2332
+- expected_values:
+    FORD_GEAR_SHFT: REVERSE
+  response: 7E804621E233C
+- expected_values:
+    FORD_GEAR_SHFT: PARK
+  response: 7E804621E2346

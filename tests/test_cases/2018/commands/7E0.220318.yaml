@@ -1,11 +1,25 @@
 command_id: 7E0.220318
 test_cases:
-- response: '7E8056203180000'
-  expected_values:
+- expected_values:
     FORD_VCT_INT_ACT: 0
-- response: 7E805620318FF49
-  expected_values:
+  response: |-
+    2203181
+    7E8056203180006
+- expected_values:
     FORD_VCT_INT_ACT: 0
-- response: 7E805620318FFFF
-  expected_values:
+  response: '7E8 05 62 03 18 00 00 '
+- expected_values:
     FORD_VCT_INT_ACT: 0
+  response: '7E8 05 62 03 18 FF FD '
+- expected_values:
+    FORD_VCT_INT_ACT: 0
+  response: '7E8 05 62 03 18 FF FF '
+- expected_values:
+    FORD_VCT_INT_ACT: 0
+  response: '7E8056203180000'
+- expected_values:
+    FORD_VCT_INT_ACT: 0
+  response: 7E805620318FEFF
+- expected_values:
+    FORD_VCT_INT_ACT: 0
+  response: 7E805620318FF09

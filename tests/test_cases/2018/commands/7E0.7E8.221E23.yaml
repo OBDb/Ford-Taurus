@@ -1,14 +1,30 @@
 command_id: 7E0.7E8.221E23
 test_cases:
-- response: 7E804621E232E
-  expected_values:
-    FORD_GEAR_SHFT: DRIVE
-- response: 7E804621E2332
-  expected_values:
-    FORD_GEAR_SHFT: NEUTRAL
-- response: 7E804621E233C
-  expected_values:
-    FORD_GEAR_SHFT: REVERSE
-- response: 7E804621E2346
-  expected_values:
+- expected_values:
     FORD_GEAR_SHFT: PARK
+  response: "221E231\n7E8 04 62 1E 23 46 "
+- expected_values:
+    FORD_GEAR_SHFT: DRIVE
+  response: |-
+    221E231
+    7E804621E232E
+- expected_values:
+    FORD_GEAR_SHFT: DRIVE
+  response: '7E8 04 62 1E 23 2E '
+- expected_values:
+    FORD_GEAR_SHFT: NEUTRAL
+  response: '7E8 04 62 1E 23 32 '
+- expected_values:
+    FORD_GEAR_SHFT: PARK
+  response: '7E8 04 62 1E 23 46 '
+- expected_values:
+    FORD_GEAR_SHFT: DRIVE
+  response: 7E804621E232E
+- expected_values:
+    FORD_GEAR_SHFT: PARK
+  response: 7E804621E2346
+- expected_values:
+    FORD_GEAR_SHFT: PARK
+  response: |-
+    SEARCHING...
+    7E804621E2346

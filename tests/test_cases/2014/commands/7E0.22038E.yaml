@@ -1,0 +1,11 @@
+command_id: 7E0.22038E
+test_cases:
+- expected_values:
+    FORD_EVAP_V: 5
+  response: 7E80562038E07EA
+- expected_values:
+    FORD_EVAP_V: 5
+  response: 7E80562038E07FE
+- expected_values:
+    FORD_EVAP_V: 5
+  response: 7E80562038E0A02

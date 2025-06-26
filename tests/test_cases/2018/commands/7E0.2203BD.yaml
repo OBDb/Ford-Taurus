@@ -1,11 +1,23 @@
 command_id: 7E0.2203BD
 test_cases:
-- response: 7E8056203BD0000
-  expected_values:
+- expected_values:
+    FORD_CL_LC: 5
+  response: "2203BD1\n7E8 05 62 03 BD FF E4 "
+- expected_values:
+    FORD_CL_LC: 0.00549
+  response: '7E8 05 62 03 BD 00 2D '
+- expected_values:
+    FORD_CL_LC: 0.00818
+  response: '7E8 05 62 03 BD 00 43 '
+- expected_values:
+    FORD_CL_LC: 5
+  response: '7E8 05 62 03 BD FF DD '
+- expected_values:
     FORD_CL_LC: 0
-- response: 7E8056203BDFF97
-  expected_values:
+  response: 7E8056203BD0000
+- expected_values:
     FORD_CL_LC: 5
-- response: 7E8056203BDFFDF
-  expected_values:
+  response: 7E8056203BDFF97
+- expected_values:
     FORD_CL_LC: 5
+  response: 7E8056203BDFFF9
