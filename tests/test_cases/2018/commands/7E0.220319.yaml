@@ -1,11 +1,11 @@
 command_id: 7E0.220319
 test_cases:
-- response: '7E8056203190000'
-  expected_values:
+- expected_values:
     FORD_VCT_EXH_ACT: 0
-- response: 7E80562031901FF
-  expected_values:
+  response: '7E8056203190000'
+- expected_values:
     FORD_VCT_EXH_ACT: 31.9375
-- response: 7E805620319FFF9
-  expected_values:
+  response: 7E80562031901FF
+- expected_values:
     FORD_VCT_EXH_ACT: 50
+  response: 7E805620319FFF8

@@ -1,11 +1,17 @@
 command_id: 7E0.2203BC
 test_cases:
-- response: 7E8056203BC0000
-  expected_values:
+- expected_values:
     FORD_VCT_INT_DES: 0
-- response: 7E8056203BCFEFB
-  expected_values:
+  response: "2203BC1\n7E8 05 62 03 BC 00 00 "
+- expected_values:
     FORD_VCT_INT_DES: 0
-- response: 7E8056203BCFF0A
-  expected_values:
+  response: '7E8 05 62 03 BC 00 00 '
+- expected_values:
     FORD_VCT_INT_DES: 0
+  response: 7E8056203BC0000
+- expected_values:
+    FORD_VCT_INT_DES: 0
+  response: 7E8056203BCFF07
+- expected_values:
+    FORD_VCT_INT_DES: 0
+  response: 7E8056203BCFFFE
