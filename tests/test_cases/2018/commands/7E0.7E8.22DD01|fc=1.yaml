@@ -1,41 +1,41 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    FORD_ODO: 455743
+    TAURUS_ODO: 455743.0
   response: |-
     22DD011
     7E80662DD0106F43F
 - expected_values:
-    FORD_ODO: 452333
+    TAURUS_ODO: 452333.0
   response: '7E8 06 62 DD 01 06 E6 ED '
 - expected_values:
-    FORD_ODO: 452338
+    TAURUS_ODO: 452338.0
   response: '7E8 06 62 DD 01 06 E6 F2 '
 - expected_values:
-    FORD_ODO: 452708
+    TAURUS_ODO: 452708.0
   response: '7E8 06 62 DD 01 06 E8 64 '
 - expected_values:
-    FORD_ODO: 451274
+    TAURUS_ODO: 451274.0
   response: 7E80662DD0106E2CA
 - expected_values:
-    FORD_ODO: 452708
+    TAURUS_ODO: 452708.0
   response: 7E80662DD0106E864
 - expected_values:
-    FORD_ODO: 454399
+    TAURUS_ODO: 454399.0
   response: 7E80662DD0106EEFF
 - expected_values:
-    FORD_ODO: 454660
+    TAURUS_ODO: 454660.0
   response: 7E80662DD0106F004
 - expected_values:
-    FORD_ODO: 457001
+    TAURUS_ODO: 457001.0
   response: 7E80662DD0106F929
 - expected_values:
-    FORD_ODO: 452338
+    TAURUS_ODO: 452338.0
   response: |-
     SEARCHING...
     7E80662DD0106E6F2
 - expected_values:
-    FORD_ODO: 452708
+    TAURUS_ODO: 452708.0
   response: |-
     SEARCHING...
     7E80662DD0106E864

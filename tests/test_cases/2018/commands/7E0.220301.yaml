@@ -1,49 +1,49 @@
 command_id: 7E0.220301
 test_cases:
 - expected_values:
-    FORD_MAP_V: 1.36719
+    TAURUS_MAP_V: 1.36719
   response: |-
     2203011
     7E8056203010578
 - expected_values:
-    FORD_MAP_V: 1.31738
+    TAURUS_MAP_V: 1.31738
   response: '7E8 05 62 03 01 05 45 '
 - expected_values:
-    FORD_MAP_V: 1.33789
+    TAURUS_MAP_V: 1.33789
   response: '7E8 05 62 03 01 05 5A '
 - expected_values:
-    FORD_MAP_V: 1.8125
+    TAURUS_MAP_V: 1.8125
   response: '7E8 05 62 03 01 07 40 '
 - expected_values:
-    FORD_MAP_V: 2.80566
+    TAURUS_MAP_V: 2.80566
   response: '7E8 05 62 03 01 0B 39 '
 - expected_values:
-    FORD_MAP_V: 0.71094
+    TAURUS_MAP_V: 0.71094
   response: 7E80562030102D8
 - expected_values:
-    FORD_MAP_V: 1.49902
+    TAURUS_MAP_V: 1.49902
   response: 7E80562030105FF
 - expected_values:
-    FORD_MAP_V: 2
-  response: '7E8056203010800'
+    TAURUS_MAP_V: 2.0
+  response: 7E8056203010800
 - expected_values:
-    FORD_MAP_V: 3.79102
+    TAURUS_MAP_V: 3.79102
   response: 7E8056203010F2A
 - expected_values:
-    FORD_MAP_V: 0.93359
+    TAURUS_MAP_V: 0.93359
   response: "SEARCHING...\n7E8 05 62 03 01 03 BC "
 - expected_values:
-    FORD_MAP_V: 1.38086
+    TAURUS_MAP_V: 1.38086
   response: |-
     SEARCHING...
     7E8056203010586
 - expected_values:
-    FORD_MAP_V: 1.5918
+    TAURUS_MAP_V: 1.5918
   response: |-
     SEARCHING...
     7E805620301065E
 - expected_values:
-    FORD_MAP_V: 2.38184
+    TAURUS_MAP_V: 2.38184
   response: |-
     SEARCHING...
     7E8056203010987

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    FORD_ODO: 137359
+    TAURUS_ODO: 137359.0
   response: 7E80662DD0102188F
 - expected_values:
-    FORD_ODO: 137473
+    TAURUS_ODO: 137473.0
   response: 7E80662DD01021901
 - expected_values:
-    FORD_ODO: 140508
+    TAURUS_ODO: 140508.0
   response: 7E80662DD010224DC
 - expected_values:
-    FORD_ODO: 140573
+    TAURUS_ODO: 140573.0
   response: 7E80662DD0102251D

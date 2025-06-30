@@ -1,26 +1,26 @@
 command_id: 7E0.220307
 test_cases:
 - expected_values:
-    FORD_LPFP_DUTY: 38.82751
+    TAURUS_LPFP_DUTY: 38.82751
   response: '7E8 05 62 03 07 31 B3 '
 - expected_values:
-    FORD_LPFP_DUTY: 38.85498
+    TAURUS_LPFP_DUTY: 38.85498
   response: '7E8 05 62 03 07 31 BC '
 - expected_values:
-    FORD_LPFP_DUTY: 38.87024
+    TAURUS_LPFP_DUTY: 38.87024
   response: '7E8 05 62 03 07 31 C1 '
 - expected_values:
-    FORD_LPFP_DUTY: 38.92822
+    TAURUS_LPFP_DUTY: 38.92822
   response: '7E8 05 62 03 07 31 D4 '
 - expected_values:
-    FORD_LPFP_DUTY: 36.25183
+    TAURUS_LPFP_DUTY: 36.25183
   response: 7E8056203072E67
 - expected_values:
-    FORD_LPFP_DUTY: 38.2782
+    TAURUS_LPFP_DUTY: 38.2782
   response: 7E80562030730FF
 - expected_values:
-    FORD_LPFP_DUTY: 38.28125
-  response: '7E8056203073100'
+    TAURUS_LPFP_DUTY: 38.28125
+  response: 7E8056203073100
 - expected_values:
-    FORD_LPFP_DUTY: 48.99902
+    TAURUS_LPFP_DUTY: 48.99902
   response: 7E8056203073EB8
