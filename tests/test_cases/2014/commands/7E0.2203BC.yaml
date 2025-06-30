@@ -5,7 +5,7 @@ test_cases:
   response: 7E8056203BC0000
 - expected_values:
     FORD_VCT_INT_DES: 0
-  response: 7E8056203BCFF0C
+  response: 7E8056203BCFEF6
 - expected_values:
     FORD_VCT_INT_DES: 0
-  response: 7E8056203BCFFF4
+  response: 7E8056203BCFF0A
