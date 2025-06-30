@@ -1,33 +1,33 @@
 command_id: 720.728.2261A5
 test_cases:
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: |-
     2261A5
     728076261A500800000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: '728 07 62 61 A5 00 80 00 00 '
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: 728076261A500000000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: 728076261A500000400
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: 728076261A500800000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: 728076261A500800400
 - expected_values:
-    FORD_TPMS_WARN: 1
+    TAURUS_TPMS_WARN: 1.0
   response: 728076261A520000000
 - expected_values:
-    FORD_TPMS_WARN: 1
+    TAURUS_TPMS_WARN: 1.0
   response: 728076261A520808000
 - expected_values:
-    FORD_TPMS_WARN: 0
+    TAURUS_TPMS_WARN: 0
   response: |-
     SEARCHING...
     728076261A500800000

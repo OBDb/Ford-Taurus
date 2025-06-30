@@ -1,22 +1,22 @@
 command_id: 7E0.2203BB
 test_cases:
 - expected_values:
-    FORD_VCT_EXH_DES: 0
+    TAURUS_VCT_EXH_DES: 0
   response: |-
     2203BB1
     7E8056203BB0000
 - expected_values:
-    FORD_VCT_EXH_DES: 0
+    TAURUS_VCT_EXH_DES: 0
   response: '7E8 05 62 03 BB 00 00 '
 - expected_values:
-    FORD_VCT_EXH_DES: 49.375
+    TAURUS_VCT_EXH_DES: 49.375
   response: '7E8 05 62 03 BB 03 16 '
 - expected_values:
-    FORD_VCT_EXH_DES: 0
+    TAURUS_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
-    FORD_VCT_EXH_DES: 31.8125
+    TAURUS_VCT_EXH_DES: 31.8125
   response: 7E8056203BB01FD
 - expected_values:
-    FORD_VCT_EXH_DES: 48.5625
+    TAURUS_VCT_EXH_DES: 48.5625
   response: 7E8056203BB0309

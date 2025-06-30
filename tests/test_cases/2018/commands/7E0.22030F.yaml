@@ -1,26 +1,26 @@
 command_id: 7E0.22030F
 test_cases:
 - expected_values:
-    FORD_CL: 0.97177
+    TAURUS_CL: 0.97177
   response: '7E8 05 62 03 0F 7C 63 '
 - expected_values:
-    FORD_CL: 0.98471
+    TAURUS_CL: 0.98471
   response: '7E8 05 62 03 0F 7E 0B '
 - expected_values:
-    FORD_CL: 0.9975
+    TAURUS_CL: 0.9975
   response: '7E8 05 62 03 0F 7F AE '
 - expected_values:
-    FORD_CL: 1.06839
+    TAURUS_CL: 1.06839
   response: '7E8 05 62 03 0F 88 C1 '
 - expected_values:
-    FORD_CL: 0.83234
+    TAURUS_CL: 0.83234
   response: 7E80562030F6A8A
 - expected_values:
-    FORD_CL: 0.99216
+    TAURUS_CL: 0.99216
   response: 7E80562030F7EFF
 - expected_values:
-    FORD_CL: 1
+    TAURUS_CL: 1.0
   response: 7E80562030F8000
 - expected_values:
-    FORD_CL: 1.17313
+    TAURUS_CL: 1.17313
   response: 7E80562030F9629

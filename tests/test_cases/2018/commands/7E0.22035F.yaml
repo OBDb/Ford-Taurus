@@ -1,31 +1,31 @@
 command_id: 7E0.22035F
 test_cases:
 - expected_values:
-    FORD_RO2_V: 0.69824
+    TAURUS_RO2_V: 0.69824
   response: '7E8 05 62 03 5F 02 CB '
 - expected_values:
-    FORD_RO2_V: 0.74902
+    TAURUS_RO2_V: 0.74902
   response: '7E8 05 62 03 5F 02 FF '
 - expected_values:
-    FORD_RO2_V: 0.76855
+    TAURUS_RO2_V: 0.76855
   response: '7E8 05 62 03 5F 03 13 '
 - expected_values:
-    FORD_RO2_V: 0.7832
+    TAURUS_RO2_V: 0.7832
   response: '7E8 05 62 03 5F 03 22 '
 - expected_values:
-    FORD_RO2_V: 1
+    TAURUS_RO2_V: 1
   response: '7E8 05 62 03 5F 04 A3 '
 - expected_values:
-    FORD_RO2_V: 0
+    TAURUS_RO2_V: 0
   response: 7E80562035F0000
 - expected_values:
-    FORD_RO2_V: 0.74902
+    TAURUS_RO2_V: 0.74902
   response: 7E80562035F02FF
 - expected_values:
-    FORD_RO2_V: 1
+    TAURUS_RO2_V: 1
   response: 7E80562035F0637
 - expected_values:
-    FORD_RO2_V: 0.77832
+    TAURUS_RO2_V: 0.77832
   response: |-
     SEARCHING...
     7E80562035F031D
