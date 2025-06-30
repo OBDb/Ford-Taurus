@@ -13,6 +13,9 @@ test_cases:
     FORD_ETC_TRIM_LEARNED: 0.47266
   response: 7E80562033800F2
 - expected_values:
+    FORD_ETC_TRIM_LEARNED: 0.51172
+  response: '7E8056203380106'
+- expected_values:
     FORD_ETC_TRIM_LEARNED: 90
   response: 7E805620338FF45
 - expected_values:
