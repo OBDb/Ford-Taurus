@@ -1,11 +1,11 @@
 command_id: 7E0.2203BD
 test_cases:
 - expected_values:
-    FORD_CL_LC: 0
+    TAURUS_CL_LC: 0.0
   response: 7E8056203BD0000
 - expected_values:
-    FORD_CL_LC: 5
+    TAURUS_CL_LC: 5
   response: 7E8056203BDFF3F
 - expected_values:
-    FORD_CL_LC: 5
+    TAURUS_CL_LC: 5
   response: 7E8056203BDFFC1
