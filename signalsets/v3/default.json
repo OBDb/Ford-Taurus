@@ -57,13 +57,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TAURUS_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear right outer tire pressure", "suggestedMetric": "rearRightTirePressure"},
-    {"id": "TAURUS_TP_RR",  "path": "Tires", "fmt": { "len": 16, "max": 255,  "div": 20, "unit": "psi" }, "name": "Rear right tire pressure",       "suggestedMetric": "rearRightTirePressure"}
+    {"id": "TAURUS_TP_RR", "path": "Tires", "fmt": { "len": 16, "max": 255, "div": 20, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TAURUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left outer tire pressure", "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "TAURUS_TP_RL",  "path": "Tires", "fmt": { "len": 16, "max": 255,  "div": 20, "unit": "psi" }, "name": "Rear left tire pressure",       "suggestedMetric": "rearLeftTirePressure"}
+    {"id": "TAURUS_TP_RL", "path": "Tires", "fmt": { "len": 16, "max": 255, "div": 20, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
@@ -79,7 +77,7 @@
   ]},
 { "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
-    {"id": "TAURUS_PARKING_BRAKE", "path": "Transmission", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
+    {"id": "TAURUS_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
   ]},
 { "hdr": "760", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
   "signals": [
@@ -95,7 +93,7 @@
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E12"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_GEAR_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
+    {"id": "TAURUS_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear", "description": "The automatic transmission gear. Numbers aren't yet mapped to named gears."}
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -103,7 +101,7 @@
   ]},
 { "hdr": "7DF", "cmd": {"22": "1E23"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_GEAR_SHFT_V2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
+    {"id": "TAURUS_GEAR_SHFT_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Shift gear"}
   ]},
 { "hdr": "7DF", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -223,7 +221,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_GEAR", "path": "Engine", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+    {"id": "TAURUS_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
           "2":  { "description": "Second gear",  "value": "2" },
           "3":  { "description": "Third gear",   "value": "3" },
@@ -243,7 +241,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_GEAR_SHFT", "path": "Engine", "name": "Shift gear", "fmt": {"len": 8, "map": {
+    {"id": "TAURUS_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "10": { "description": "Manual",  "value": "MANUAL" },
           "46": { "description": "Drive",   "value": "DRIVE" },
           "50": { "description": "Neutral", "value": "NEUTRAL" },

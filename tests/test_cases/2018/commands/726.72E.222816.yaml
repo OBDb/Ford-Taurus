@@ -2,31 +2,24 @@ command_id: 726.72E.222816
 test_cases:
 - expected_values:
     TAURUS_TP_RL: 29.8
-    TAURUS_TP_RLO: 29.8
   response: '72E 05 62 28 16 02 54 '
 - expected_values:
     TAURUS_TP_RL: 33.05
-    TAURUS_TP_RLO: 33.05
   response: '72E 05 62 28 16 02 95 '
 - expected_values:
     TAURUS_TP_RL: 33.3
-    TAURUS_TP_RLO: 33.3
   response: '72E 05 62 28 16 02 9A '
 - expected_values:
     TAURUS_TP_RL: 29.3
-    TAURUS_TP_RLO: 29.3
   response: 72E05622816024A
 - expected_values:
     TAURUS_TP_RL: 36.3
-    TAURUS_TP_RLO: 36.3
   response: 72E0562281602D6
 - expected_values:
     TAURUS_TP_RL: 40.05
-    TAURUS_TP_RLO: 40.05
   response: 72E056228160321
 - expected_values:
     TAURUS_TP_RL: 35.05
-    TAURUS_TP_RLO: 35.05
   response: |-
     SEARCHING...
     72E0562281602BD
