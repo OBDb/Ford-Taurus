@@ -40,6 +40,7 @@ supported_commands_by_ecu:
   - 014B:APP_F
   - 014C:TAC_PCT
   - 7E0.010D:VSS
+  - 7E0.011C:OBDSUP
   - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   "720":

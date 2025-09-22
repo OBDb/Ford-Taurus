@@ -20,6 +20,16 @@ test_cases:
     22F42F1
     7E80462F42F00
 - expected_values:
+    FORD_FLI: 14.11765
+  response: |-
+    22F42F1
+    7E80462F42F24
+- expected_values:
+    FORD_FLI: 44.31373
+  response: |-
+    22F42F1
+    7E80462F42F71
+- expected_values:
     FORD_FLI: 4.70588
   response: '7E8 04 62 F4 2F 0C '
 - expected_values:
@@ -37,6 +47,11 @@ test_cases:
 - expected_values:
     FORD_FLI: 98.82353
   response: 7E80462F42FFC
+- expected_values:
+    FORD_FLI: 48.62745
+  response: |-
+    SEARCHING...
+    7E80462F42F7C
 - expected_values:
     FORD_FLI: 54.5098
   response: |-

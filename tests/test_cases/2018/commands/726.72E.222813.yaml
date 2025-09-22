@@ -6,14 +6,33 @@ test_cases:
     222813
     72E05622813024A
 - expected_values:
+    FORD_TP_FL: 27.15
+  response: "2228131\n72E 05 62 28 13 02 1F "
+- expected_values:
+    FORD_TP_FL: 32.55
+  response: |-
+    2228131
+    72E05622813028B
+- expected_values:
+    FORD_TP_FL: 31.65
+  response: "2228131\nSEARCHING...\n72E 05 62 28 13 02 79 "
+- expected_values:
+    FORD_TP_FL: 28.8
+  response: '72E 05 62 28 13 02 40 '
+- expected_values:
     FORD_TP_FL: 29.3
   response: '72E 05 62 28 13 02 4A '
 - expected_values:
-    FORD_TP_FL: 30.55
-  response: '72E 05 62 28 13 02 63 '
+    FORD_TP_FL: 26.3
+  response: 72E05622813020E
 - expected_values:
-    FORD_TP_FL: 27.05
-  response: 72E05622813021D
+    FORD_TP_FL: 38.3
+  response: 72E0562281302FE
 - expected_values:
-    FORD_TP_FL: 35.3
-  response: 72E0562281302C2
+    FORD_TP_FL: 38.55
+  response: '72E056228130303'
+- expected_values:
+    FORD_TP_FL: 36.9
+  response: |-
+    SEARCHING...
+    72E0562281302E2

@@ -9,6 +9,19 @@ test_cases:
     FORD_GEAR: '1'
   response: "221E121\n7E8 04 62 1E 12 01 "
 - expected_values:
+    FORD_GEAR: '2'
+  response: "221E121\n7E8 04 62 1E 12 02 "
+- expected_values:
+    FORD_GEAR: '1'
+  response: |-
+    221E121
+    7E804621E1201
+- expected_values:
+    FORD_GEAR: '5'
+  response: |-
+    221E121
+    7E804621E1205
+- expected_values:
     FORD_GEAR: '1'
   response: '7E8 04 62 1E 12 01 '
 - expected_values:
@@ -20,6 +33,9 @@ test_cases:
 - expected_values:
     FORD_GEAR: '6'
   response: 7E804621E1206
+- expected_values:
+    FORD_GEAR: '1'
+  response: "SEARCHING...\n7E8 04 62 1E 12 01 "
 - expected_values:
     FORD_GEAR: '1'
   response: |-

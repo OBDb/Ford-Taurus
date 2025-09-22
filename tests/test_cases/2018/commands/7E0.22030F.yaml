@@ -1,8 +1,14 @@
 command_id: 7E0.22030F
 test_cases:
 - expected_values:
-    FORD_CL: 0.97177
-  response: '7E8 05 62 03 0F 7C 63 '
+    FORD_CL: 1.06259
+  response: "22030F1\n7E8 05 62 03 0F 88 03 "
+- expected_values:
+    FORD_CL: 0.95822
+  response: '7E8 05 62 03 0F 7A A7 '
+- expected_values:
+    FORD_CL: 0.96866
+  response: '7E8 05 62 03 0F 7B FD '
 - expected_values:
     FORD_CL: 0.98471
   response: '7E8 05 62 03 0F 7E 0B '
@@ -13,14 +19,14 @@ test_cases:
     FORD_CL: 1.06839
   response: '7E8 05 62 03 0F 88 C1 '
 - expected_values:
-    FORD_CL: 0.83234
-  response: 7E80562030F6A8A
+    FORD_CL: 0.79334
+  response: 7E80562030F658C
 - expected_values:
     FORD_CL: 0.99216
   response: 7E80562030F7EFF
 - expected_values:
-    FORD_CL: 1
-  response: 7E80562030F8000
+    FORD_CL: 0.99219
+  response: 7E80562030F7F00
 - expected_values:
-    FORD_CL: 1.17313
-  response: 7E80562030F9629
+    FORD_CL: 1.40915
+  response: 7E80562030FB45F

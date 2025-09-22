@@ -9,8 +9,16 @@ test_cases:
     FORD_TOT: 64.625
   response: "221E1C1\n7E8 05 62 1E 1C 04 0A "
 - expected_values:
+    FORD_TOT: 74.75
+  response: |-
+    221E1C1
+    7E805621E1C04AC
+- expected_values:
     FORD_TOT: 67.375
   response: '7E8 05 62 1E 1C 04 36 '
+- expected_values:
+    FORD_TOT: 69.9375
+  response: '7E8 05 62 1E 1C 04 5F '
 - expected_values:
     FORD_TOT: 95
   response: '7E8 05 62 1E 1C 05 F0 '
@@ -18,17 +26,14 @@ test_cases:
     FORD_TOT: 96.1875
   response: '7E8 05 62 1E 1C 06 03 '
 - expected_values:
-    FORD_TOT: 96.75
-  response: '7E8 05 62 1E 1C 06 0C '
-- expected_values:
     FORD_TOT: 33.25
   response: 7E805621E1C0214
 - expected_values:
+    FORD_TOT: 47.9375
+  response: 7E805621E1C02FF
+- expected_values:
     FORD_TOT: 48.0625
   response: 7E805621E1C0301
-- expected_values:
-    FORD_TOT: 79.9375
-  response: 7E805621E1C04FF
 - expected_values:
     FORD_TOT: 96.4375
   response: 7E805621E1C0607
