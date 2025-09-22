@@ -7,8 +7,8 @@ test_cases:
     FORD_ECT: 83.98438
   response: 7E80562038F14FF
 - expected_values:
-    FORD_ECT: 88.0625
-  response: 7E80562038F1604
+    FORD_ECT: 88.03125
+  response: 7E80562038F1602
 - expected_values:
     FORD_ECT: 96.125
   response: 7E80562038F1808
