@@ -13,6 +13,9 @@ test_cases:
   response: '728 07 62 61 A5 00 80 00 00 '
 - expected_values:
     FORD_TPMS_WARN: 0
+  response: '728 07 62 61 A5 00 80 04 00 '
+- expected_values:
+    FORD_TPMS_WARN: 0
   response: 728076261A500000000
 - expected_values:
     FORD_TPMS_WARN: 0

@@ -27,17 +27,17 @@ test_cases:
     FORD_ODO_V3: 473971.8
   response: '728 06 62 40 4C 48 52 86 '
 - expected_values:
-    FORD_ODO_V3: 451274.1
-  response: 7280662404C44DBE5
+    FORD_ODO_V3: 144840.7
+  response: 7280662404C1619D7
+- expected_values:
+    FORD_ODO_V3: 144844.7
+  response: 7280662404C1619FF
 - expected_values:
     FORD_ODO_V3: 452233.1
   response: 7280662404C45015B
 - expected_values:
     FORD_ODO_V3: 452966.4
   response: 7280662404C451E00
-- expected_values:
-    FORD_ODO_V3: 453555.1
-  response: 7280662404C4534FF
 - expected_values:
     FORD_ODO_V3: 465292.6
   response: 7280662404C46FF7E

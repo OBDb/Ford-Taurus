@@ -20,8 +20,8 @@ test_cases:
     FORD_TP_FL: 28.8
   response: '72E 05 62 28 13 02 40 '
 - expected_values:
-    FORD_TP_FL: 29.3
-  response: '72E 05 62 28 13 02 4A '
+    FORD_TP_FL: 31.15
+  response: '72E 05 62 28 13 02 6F '
 - expected_values:
     FORD_TP_FL: 26.3
   response: 72E05622813020E
