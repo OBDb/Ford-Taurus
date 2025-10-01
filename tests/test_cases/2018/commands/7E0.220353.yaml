@@ -10,8 +10,8 @@ test_cases:
     FORD_BARO: 14.35713
   response: '7E8 05 62 03 53 01 8C '
 - expected_values:
-    FORD_BARO: 13.63202
-  response: '7E8056203530178'
+    FORD_BARO: 13.08819
+  response: '7E8056203530169'
 - expected_values:
     FORD_BARO: 14.50215
   response: '7E8056203530190'
