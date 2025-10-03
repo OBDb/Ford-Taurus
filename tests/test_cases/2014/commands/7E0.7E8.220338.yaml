@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.220338
+test_cases:
+- expected_values:
+    FORD_ETC_TRIM_LEARNED: 0.30664
+    FORD_[ECU] ETC learned trim: 0.30664
+  response: 7E805620338009D
+- expected_values:
+    FORD_ETC_TRIM_LEARNED: 0.44336
+    FORD_[ECU] ETC learned trim: 0.44336
+  response: 7E80562033800E3
+- expected_values:
+    FORD_ETC_TRIM_LEARNED: 0.50977
+    FORD_[ECU] ETC learned trim: 0.50977
+  response: '7E8056203380105'
+- expected_values:
+    FORD_ETC_TRIM_LEARNED: 1.12109
+    FORD_[ECU] ETC learned trim: 1.12109
+  response: 7E805620338023E

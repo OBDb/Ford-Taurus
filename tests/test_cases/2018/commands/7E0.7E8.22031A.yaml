@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22031A
+test_cases:
+- expected_values:
+    FORD_VCT_INT_ERR: 0
+  response: "22031A1\n7E8 05 62 03 1A 00 00 "
+- expected_values:
+    FORD_VCT_INT_ERR: 50
+  response: "22031A1\n7E8 05 62 03 1A FF F9 "
+- expected_values:
+    FORD_VCT_INT_ERR: 0.0625
+  response: '7E8 05 62 03 1A 00 01 '
+- expected_values:
+    FORD_VCT_INT_ERR: 50
+  response: '7E8 05 62 03 1A FF F0 '
+- expected_values:
+    FORD_VCT_INT_ERR: 50
+  response: '7E8 05 62 03 1A FF FF '
+- expected_values:
+    FORD_VCT_INT_ERR: 0
+  response: 7E80562031A0000
+- expected_values:
+    FORD_VCT_INT_ERR: 50
+  response: 7E80562031AFF9C
+- expected_values:
+    FORD_VCT_INT_ERR: 50
+  response: 7E80562031AFFFF

@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.220353
+test_cases:
+- expected_values:
+    FORD_BARO: 14.39339
+    FORD_[ECU] Baro: 14.39339
+  response: "2203531\n7E8 05 62 03 53 01 8D "
+- expected_values:
+    FORD_BARO: 14.21211
+    FORD_[ECU] Baro: 14.21211
+  response: '7E8 05 62 03 53 01 88 '
+- expected_values:
+    FORD_BARO: 14.35713
+    FORD_[ECU] Baro: 14.35713
+  response: '7E8 05 62 03 53 01 8C '
+- expected_values:
+    FORD_BARO: 13.08819
+    FORD_[ECU] Baro: 13.08819
+  response: '7E8056203530169'
+- expected_values:
+    FORD_BARO: 14.50215
+    FORD_[ECU] Baro: 14.50215
+  response: '7E8056203530190'
+- expected_values:
+    FORD_BARO: 14.21211
+    FORD_[ECU] Baro: 14.21211
+  response: |-
+    SEARCHING...
+    7E8056203530188
