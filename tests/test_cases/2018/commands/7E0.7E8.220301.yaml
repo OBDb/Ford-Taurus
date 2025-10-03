@@ -36,8 +36,8 @@ test_cases:
     FORD_MAP_V: 1.49902
   response: 7E80562030105FF
 - expected_values:
-    FORD_MAP_V: 3.78906
-  response: 7E8056203010F28
+    FORD_MAP_V: 4.01074
+  response: 7E805620301100B
 - expected_values:
     FORD_MAP_V: 0.93359
   response: "SEARCHING...\n7E8 05 62 03 01 03 BC "
