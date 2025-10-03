@@ -42,8 +42,8 @@ test_cases:
     FORD_ODO_V3: 465292.6
   response: 7280662404C46FF7E
 - expected_values:
-    FORD_ODO_V3: 472004.2
-  response: 7280662404C4805AA
+    FORD_ODO_V3: 478505.7
+  response: 7280662404C4903A1
 - expected_values:
     FORD_ODO_V3: 452338.6
   response: "SEARCHING...\n728 06 62 40 4C 45 05 7A "
