@@ -1,0 +1,5 @@
+command_id: 720.728.22404C
+test_cases:
+- expected_values:
+    FORD_ODO_V3: 260825.8
+  response: 7280662404C27CC82

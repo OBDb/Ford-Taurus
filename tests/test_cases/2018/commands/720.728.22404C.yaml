@@ -24,8 +24,8 @@ test_cases:
     FORD_ODO_V3: 465270.7
   response: '728 06 62 40 4C 46 FE A3 '
 - expected_values:
-    FORD_ODO_V3: 473971.8
-  response: '728 06 62 40 4C 48 52 86 '
+    FORD_ODO_V3: 478932.4
+  response: '728 06 62 40 4C 49 14 4C '
 - expected_values:
     FORD_ODO_V3: 144840.7
   response: 7280662404C1619D7
