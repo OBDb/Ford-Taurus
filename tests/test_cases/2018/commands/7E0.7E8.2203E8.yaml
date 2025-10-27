@@ -8,7 +8,7 @@ test_cases:
   response: '7E8 05 62 03 E8 1A C5 '
 - expected_values:
     FORD_OAR: 1
-  response: '7E8 05 62 03 E8 EB 57 '
+  response: '7E8 05 62 03 E8 EA 1B '
 - expected_values:
     FORD_OAR: 1
   response: '7E8 05 62 03 E8 F8 87 '
