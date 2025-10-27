@@ -9,6 +9,9 @@ test_cases:
     FORD_TOT: 64.625
   response: "221E1C1\n7E8 05 62 1E 1C 04 0A "
 - expected_values:
+    FORD_TOT: 75.4375
+  response: "221E1C1\n7E8 05 62 1E 1C 04 B7 "
+- expected_values:
     FORD_TOT: 74.75
   response: |-
     221E1C1

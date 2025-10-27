@@ -4,8 +4,8 @@ test_cases:
     FORD_VCT_EXH_ACT: 0.125
   response: "2203191\n7E8 05 62 03 19 00 02 "
 - expected_values:
-    FORD_VCT_EXH_ACT: 0.0625
-  response: '7E8 05 62 03 19 00 01 '
+    FORD_VCT_EXH_ACT: 0
+  response: '7E8 05 62 03 19 00 00 '
 - expected_values:
     FORD_VCT_EXH_ACT: 50
   response: '7E8 05 62 03 19 FF FB '

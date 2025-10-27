@@ -37,6 +37,12 @@ test_cases:
     FORD_TP_RLO: 37.55
   response: "SEARCHING...\n72E 05 62 28 16 02 EF "
 - expected_values:
+    FORD_TP_RL: 32.15
+    FORD_TP_RLO: 32.15
+  response: |-
+    SEARCHING...
+    72E056228160283
+- expected_values:
     FORD_TP_RL: 35.05
     FORD_TP_RLO: 35.05
   response: |-

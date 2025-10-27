@@ -35,6 +35,11 @@ test_cases:
     FORD_GEAR_SHFT: NEUTRAL
   response: "SEARCHING...\n7E8 04 62 1E 23 32 "
 - expected_values:
+    FORD_GEAR_SHFT: DRIVE
+  response: |-
+    SEARCHING...
+    7E804621E232E
+- expected_values:
     FORD_GEAR_SHFT: PARK
   response: |-
     SEARCHING...
