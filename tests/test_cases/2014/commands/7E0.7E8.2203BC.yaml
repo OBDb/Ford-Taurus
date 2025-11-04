@@ -2,13 +2,13 @@ command_id: 7E0.7E8.2203BC
 test_cases:
 - expected_values:
     FORD_VCT_INT_DES: 0
-    FORD_[ECU] VCT Int Des: 0
+    FORD_[ECU] VCT INT DES: 0
   response: 7E8056203BC0000
 - expected_values:
     FORD_VCT_INT_DES: -16.5625
-    FORD_[ECU] VCT Int Des: 0
+    FORD_[ECU] VCT INT DES: 0
   response: 7E8056203BCFEF7
 - expected_values:
     FORD_VCT_INT_DES: -15.375
-    FORD_[ECU] VCT Int Des: 0
+    FORD_[ECU] VCT INT DES: 0
   response: 7E8056203BCFF0A

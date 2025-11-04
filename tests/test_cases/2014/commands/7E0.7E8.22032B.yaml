@@ -2,9 +2,9 @@ command_id: 7E0.7E8.22032B
 test_cases:
 - expected_values:
     FORD_ACC_POS: 0
-    FORD_[ECU] Accelerator pedal position: 0
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 0
   response: 7E80462032B00
 - expected_values:
     FORD_ACC_POS: 40.5
-    FORD_[ECU] Accelerator pedal position: 40.5
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 40.5
   response: 7E80462032B51

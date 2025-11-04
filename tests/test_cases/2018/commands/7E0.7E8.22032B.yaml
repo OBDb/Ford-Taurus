@@ -2,29 +2,29 @@ command_id: 7E0.7E8.22032B
 test_cases:
 - expected_values:
     FORD_ACC_POS: 0
-    FORD_[ECU] Accelerator pedal position: 0
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 0
   response: "22032B1\n7E8 04 62 03 2B 00 "
 - expected_values:
     FORD_ACC_POS: 4.5
-    FORD_[ECU] Accelerator pedal position: 4.5
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 4.5
   response: "22032B1\n7E8 04 62 03 2B 09 "
 - expected_values:
     FORD_ACC_POS: 0
-    FORD_[ECU] Accelerator pedal position: 0
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 0
   response: '7E8 04 62 03 2B 00 '
 - expected_values:
     FORD_ACC_POS: 13
-    FORD_[ECU] Accelerator pedal position: 13
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 13
   response: '7E8 04 62 03 2B 1A '
 - expected_values:
     FORD_ACC_POS: 20
-    FORD_[ECU] Accelerator pedal position: 20
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 20
   response: '7E8 04 62 03 2B 28 '
 - expected_values:
     FORD_ACC_POS: 0
-    FORD_[ECU] Accelerator pedal position: 0
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 0
   response: 7E80462032B00
 - expected_values:
     FORD_ACC_POS: 78.5
-    FORD_[ECU] Accelerator pedal position: 78.5
+    FORD_[ECU] ACCELERATOR PEDAL POSITION: 78.5
   response: 7E80462032B9D
