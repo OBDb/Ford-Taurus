@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221505
+test_cases:
+- expected_values:
+    FORD_VSS_HD: 0.22656
+  response: '7E8 05 62 15 05 00 1D '

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    FORD_THROTTLE_POS_ACT: 12.45117
+  response: '7E8 05 62 09 3C 03 FC '

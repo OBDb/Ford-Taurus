@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220580
+test_cases:
+- expected_values:
+    FORD_GRILL_SHUTTER_POSITION: 100
+  response: '7E8 04 62 05 80 FF '
