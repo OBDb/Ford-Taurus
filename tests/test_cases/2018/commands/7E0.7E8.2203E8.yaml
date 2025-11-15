@@ -32,3 +32,8 @@ test_cases:
   response: |-
     SEARCHING...
     7E8056203E814A2
+- expected_values:
+    FORD_OAR: 1
+  response: |-
+    SEARCHING...
+    7E8056203E8EFF0

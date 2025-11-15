@@ -9,6 +9,10 @@ test_cases:
     FORD_[ECU] ETC LEARNED TRIM: 0.15039
   response: '7E8 05 62 03 38 00 4D '
 - expected_values:
+    FORD_ETC_TRIM_LEARNED: -0.42578
+    FORD_[ECU] ETC LEARNED TRIM: 90
+  response: '7E8 05 62 03 38 FF 26 '
+- expected_values:
     FORD_ETC_TRIM_LEARNED: -0.2207
     FORD_[ECU] ETC LEARNED TRIM: 90
   response: '7E8 05 62 03 38 FF 8F '
