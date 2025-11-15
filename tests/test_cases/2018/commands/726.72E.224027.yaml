@@ -1,0 +1,5 @@
+command_id: 726.72E.224027
+test_cases:
+- expected_values:
+    FORD_12V_AGE: 1032
+  response: 72E05624027002B
