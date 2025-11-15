@@ -27,8 +27,8 @@ test_cases:
     FORD_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
-    FORD_VCT_EXH_DES: 15.875
-  response: 7E8056203BB00FE
+    FORD_VCT_EXH_DES: 47.9375
+  response: 7E8056203BB02FF
 - expected_values:
     FORD_VCT_EXH_DES: 48
   response: 7E8056203BB0300
