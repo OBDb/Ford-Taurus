@@ -30,11 +30,8 @@ test_cases:
     22F42F1
     7E80462F42F71
 - expected_values:
-    FORD_FLI: 4.70588
-  response: '7E8 04 62 F4 2F 0C '
-- expected_values:
-    FORD_FLI: 12.54902
-  response: '7E8 04 62 F4 2F 20 '
+    FORD_FLI: 0
+  response: '7E8 04 62 F4 2F 00 '
 - expected_values:
     FORD_FLI: 68.62745
   response: '7E8 04 62 F4 2F AF '

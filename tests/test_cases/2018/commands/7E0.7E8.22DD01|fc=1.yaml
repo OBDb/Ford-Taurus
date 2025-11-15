@@ -47,6 +47,9 @@ test_cases:
     FORD_ODO: 465270
   response: "SEARCHING...\n7E8 06 62 DD 01 07 19 76 "
 - expected_values:
+    FORD_ODO: 486295
+  response: "SEARCHING...\n7E8 06 62 DD 01 07 6B 97 "
+- expected_values:
     FORD_ODO: 452338
   response: |-
     SEARCHING...
