@@ -4,8 +4,8 @@ test_cases:
     FORD_THROTTLE_POS_ACT: 12.45117
   response: '7E8 05 62 09 3C 03 FC '
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 4.55322
-  response: 7E80562093C0175
+    FORD_THROTTLE_POS_ACT: 3.89404
+  response: 7E80562093C013F
 - expected_values:
     FORD_THROTTLE_POS_ACT: 50.14648
   response: 7E80562093C100C
