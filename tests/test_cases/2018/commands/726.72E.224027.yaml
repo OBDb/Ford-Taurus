@@ -1,5 +1,8 @@
 command_id: 726.72E.224027
 test_cases:
 - expected_values:
+    FORD_12V_AGE: 0
+  response: '72E056240270000'
+- expected_values:
     FORD_12V_AGE: 1032
   response: 72E05624027002B
