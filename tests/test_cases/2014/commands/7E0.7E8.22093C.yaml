@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    TAURUS_ETC_ANG_ACT: 2.67578
+  response: 7E80562093C055A
+- expected_values:
+    TAURUS_ETC_ANG_ACT: 2.99609
+  response: 7E80562093C05FE
+- expected_values:
+    TAURUS_ETC_ANG_ACT: 3
+  response: 7E80562093C0600
+- expected_values:
+    TAURUS_ETC_ANG_ACT: 16.02734
+  response: 7E80562093C200E

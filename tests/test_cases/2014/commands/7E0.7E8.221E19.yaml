@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221E19
+test_cases:
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 1.00002
+  response: 7E805621E191000
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 1.41384
+  response: 7E805621E19169F
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 1.84182
+  response: 7E805621E191D78
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 2.87187
+  response: 7E805621E192DF3
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 4.48396
+  response: 7E805621E1947BE

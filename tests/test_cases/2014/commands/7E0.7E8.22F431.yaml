@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 991
+  response: 7E80562F43103DF
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 992
+  response: 7E80562F43103E0
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 993
+  response: 7E80562F43103E1
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 994
+  response: 7E80562F43103E2
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 995
+  response: 7E80562F43103E3
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 996
+  response: 7E80562F43103E4
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 997
+  response: 7E80562F43103E5
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 998
+  response: 7E80562F43103E6

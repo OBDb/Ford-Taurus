@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22038F|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_ECT: 61.0625
-  response: 7E80562038F0F44
+    TAURUS_ECT: 59.40625
+  response: 7E80562038F0EDA
+- expected_values:
+    TAURUS_ECT: 64
+  response: 7E80562038F1000
 - expected_values:
     TAURUS_ECT: 83.98438
   response: 7E80562038F14FF
-- expected_values:
-    TAURUS_ECT: 88.03125
-  response: 7E80562038F1602
 - expected_values:
     TAURUS_ECT: 96.125
   response: 7E80562038F1808

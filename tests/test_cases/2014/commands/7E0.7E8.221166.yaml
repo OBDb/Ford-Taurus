@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 57.8064
+  response: 7E80562116649FE
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 87.30164
+  response: 7E8056211666FBF
