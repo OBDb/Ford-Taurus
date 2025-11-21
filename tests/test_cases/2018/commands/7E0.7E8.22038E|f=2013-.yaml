@@ -1,0 +1,37 @@
+command_id: 7E0.7E8.22038E|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: "22038E1\n7E8 05 62 03 8E 08 AE "
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: |-
+    22038E1
+    7E80562038E085E
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: '7E8 05 62 03 8E 06 D2 '
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: '7E8 05 62 03 8E 07 4F '
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: '7E8 05 62 03 8E 07 D1 '
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: '7E8 05 62 03 8E 08 FE '
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: '7E8 05 62 03 8E 0A 25 '
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: 7E80562038E0623
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: 7E80562038E06FF
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: 7E80562038E0A02
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: 7E80562038E0B15
