@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 392
+  response: 7E805621E1A00C4
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 494
+  response: 7E805621E1A00F7
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 1060
+  response: 7E805621E1A0212

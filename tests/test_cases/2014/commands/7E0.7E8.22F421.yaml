@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F421
+test_cases:
+- expected_values:
+    TAURUS_MIL_DIST: 713
+  response: 7E80562F42102C9
+- expected_values:
+    TAURUS_MIL_DIST: 714
+  response: 7E80562F42102CA
+- expected_values:
+    TAURUS_MIL_DIST: 715
+  response: 7E80562F42102CB
+- expected_values:
+    TAURUS_MIL_DIST: 716
+  response: 7E80562F42102CC
+- expected_values:
+    TAURUS_MIL_DIST: 717
+  response: 7E80562F42102CD
+- expected_values:
+    TAURUS_MIL_DIST: 718
+  response: 7E80562F42102CE
+- expected_values:
+    TAURUS_MIL_DIST: 719
+  response: 7E80562F42102CF
+- expected_values:
+    TAURUS_MIL_DIST: 720
+  response: 7E80562F42102D0

@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 30, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 30, "dbgfilter": { "to": 2011, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -7,75 +7,75 @@
   "signals": [
     {"id": "TAURUS_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "filter": { "from": 2012 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "filter": { "from": 2012 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2813"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_FL", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, front left", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2814"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_FR", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, front right", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2815"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_RRO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear right outer", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2816"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_RLO", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left outer", "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2817"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_RRI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear right inner"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "2818"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Tire pressure, rear left inner"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_BATT_AGE", "path": "Battery", "fmt": { "len": 16, "max": 1825, "unit": "scalar" }, "name": "Battery age"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 10, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 10, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Battery charge"}
   ]},
-{ "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4029"}, "freq": 10,
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_BATT_TEMP", "path": "Battery", "fmt": { "len": 8, "max": 100, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery temperature"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_PARK_BRK", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B06"}, "freq": 0.1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B07"}, "freq": 0.1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B08"}, "freq": 0.1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B09"}, "freq": 0.1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B0C"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_LAT_ANG", "path": "Movement", "fmt": { "len": 8, "max": 90, "min": -90, "sign": true, "unit": "degrees" }, "name": "Lateral angle"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B0D"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "2B11"}, "freq": 0.1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_LAT_G", "path": "Movement", "fmt": { "len": 16, "max": 1, "min": -1, "div": 50, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration"}
   ]},
@@ -135,7 +135,7 @@
   "signals": [
     {"id": "TAURUS_ACC_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0334"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0334"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_CYL_HEAD_T_CORR", "path": "Engine", "fmt": { "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature"}
   ]},
@@ -151,7 +151,7 @@
   "signals": [
     {"id": "TAURUS_TIP_ABS", "path": "Engine", "fmt": { "len": 16, "max": 60, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0345"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0345"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_EVENTS_LATEST_CYC", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Misfire events, latest cycle"}
   ]},
@@ -167,23 +167,23 @@
   "signals": [
     {"id": "TAURUS_RO2_V", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "O2 sensor voltage, rear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0382"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0382"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL1_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0388"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0388"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL2_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038A"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL3_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038B"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL4_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038C"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038C"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
@@ -199,11 +199,11 @@
   "signals": [
     {"id": "TAURUS_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 1000, "mul": 245251, "div": 845473, "unit": "psi" }, "name": "A/C compressor pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0398"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0398"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL6_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.984375, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03AF"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03AF"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
   ]},
@@ -235,15 +235,15 @@
   "signals": [
     {"id": "TAURUS_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03EC"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0403"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0403"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_KS1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0404"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0404"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
   ]},
@@ -283,7 +283,7 @@
   "signals": [
     {"id": "TAURUS_LPFP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 10000, "div": 137892, "sign": true, "unit": "psi" }, "name": "Fuel pressure, low actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "054B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "054B"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_ENG_OIL_LIFE_REM", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Oil life remaining"}
   ]},
@@ -291,7 +291,7 @@
   "signals": [
     {"id": "TAURUS_LPFP_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Fuel pressure sensor voltage, low"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "057D"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "057D"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
   ]},
@@ -327,39 +327,39 @@
   "signals": [
     {"id": "TAURUS_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0700"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0707"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_ETC_ANG_DES", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_ETC_ANG_ACT", "path": "Engine", "fmt": { "len": 16, "max": 127.99, "div": 512, "unit": "degrees" }, "name": "Throttle angle, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "099B"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1126"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1126"}, "freq": 30, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1166"}, "freq": 0.5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 0.5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "116B"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "116B"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1279"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
   ]},
@@ -379,15 +379,15 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E16"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E16"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_AXLE_GEAR_RATIO_MEAS", "path": "Transmission", "fmt": { "len": 16, "max": 10, "div": 4096, "unit": "scalar" }, "name": "Axle gear ratio, measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E19"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E19"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_CMD_TRANS_GEAR_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "unit": "scalar" }, "name": "Gear ratio, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1A"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
@@ -414,19 +414,19 @@
   "signals": [
     {"id": "TAURUS_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "9800"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F404"}, "freq": 0.5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F406"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F407"}, "freq": 0.5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 0.5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_LTFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, long term"}
   ]},
@@ -434,19 +434,19 @@
   "signals": [
     {"id": "TAURUS_MAP", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40C"}, "freq": 0.1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F40F"}, "freq": 2,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F421"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 60, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
   ]},
@@ -454,19 +454,19 @@
   "signals": [
     {"id": "TAURUS_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F430"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 60, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F431"}, "freq": 60,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 60, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F43C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F443"}, "freq": 0.5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "TAURUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
   ]},
