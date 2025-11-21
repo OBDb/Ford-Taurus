@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22035F|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_RO2_V: 0.02051
+  response: 7E80562035F0015
+- expected_values:
+    TAURUS_RO2_V: 0.08398
+  response: 7E80562035F0056
+- expected_values:
+    TAURUS_RO2_V: 0.42578
+  response: 7E80562035F01B4
+- expected_values:
+    TAURUS_RO2_V: 0.51367
+  response: 7E80562035F020E
+- expected_values:
+    TAURUS_RO2_V: 0.62598
+  response: 7E80562035F0281
+- expected_values:
+    TAURUS_RO2_V: 0.66016
+  response: 7E80562035F02A4
+- expected_values:
+    TAURUS_RO2_V: 0.6748
+  response: 7E80562035F02B3
+- expected_values:
+    TAURUS_RO2_V: 0.75781
+  response: 7E80562035F0308

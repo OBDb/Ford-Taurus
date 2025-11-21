@@ -1,5 +1,5 @@
 command_id: 760.768.223201
 test_cases:
 - expected_values:
-    FORD_STEER_ANGLE: 781.25
+    TAURUS_STEER_ANG: -36
   response: '768 05 62 32 01 7D 30 '

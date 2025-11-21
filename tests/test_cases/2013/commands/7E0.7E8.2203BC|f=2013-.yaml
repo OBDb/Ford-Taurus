@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2203BC|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_VCT_INT_DES: 0
+  response: 7E8056203BC0000
+- expected_values:
+    TAURUS_VCT_INT_DES: -37.375
+  response: 7E8056203BCFDAA
+- expected_values:
+    TAURUS_VCT_INT_DES: -33.8125
+  response: 7E8056203BCFDE3
+- expected_values:
+    TAURUS_VCT_INT_DES: -32.5625
+  response: 7E8056203BCFDF7
+- expected_values:
+    TAURUS_VCT_INT_DES: -31.75
+  response: 7E8056203BCFE04
+- expected_values:
+    TAURUS_VCT_INT_DES: -27.5
+  response: 7E8056203BCFE48
+- expected_values:
+    TAURUS_VCT_INT_DES: -22.75
+  response: 7E8056203BCFE94
+- expected_values:
+    TAURUS_VCT_INT_DES: -8.625
+  response: 7E8056203BCFF76
+- expected_values:
+    TAURUS_VCT_INT_DES: -1.125
+  response: 7E8056203BCFFEE

@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22093C
 test_cases:
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 12.45117
+    TAURUS_ETC_ANG_ACT: 1.99219
   response: '7E8 05 62 09 3C 03 FC '
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 3.89404
+    TAURUS_ETC_ANG_ACT: 0.62305
   response: 7E80562093C013F
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 28.05176
+    TAURUS_ETC_ANG_ACT: 4.48828
   response: 7E80562093C08FA
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 50.14648
+    TAURUS_ETC_ANG_ACT: 8.02344
   response: 7E80562093C100C
 - expected_values:
-    FORD_THROTTLE_POS_ACT: 100
+    TAURUS_ETC_ANG_ACT: 16.05078
   response: 7E80562093C201A

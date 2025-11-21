@@ -1,0 +1,43 @@
+command_id: 7E0.7E8.221E12|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: |-
+    221E12
+    7E804621E1201
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: "221E121\n7E8 04 62 1E 12 01 "
+- expected_values:
+    TAURUS_GEAR: '3'
+  response: "221E121\n7E8 04 62 1E 12 03 "
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: |-
+    221E121
+    7E804621E1201
+- expected_values:
+    TAURUS_GEAR: '5'
+  response: |-
+    221E121
+    7E804621E1205
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: '7E8 04 62 1E 12 01 '
+- expected_values:
+    TAURUS_GEAR: '6'
+  response: '7E8 04 62 1E 12 06 '
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: 7E804621E1201
+- expected_values:
+    TAURUS_GEAR: '6'
+  response: 7E804621E1206
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: "SEARCHING...\n7E8 04 62 1E 12 01 "
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: |-
+    SEARCHING...
+    7E804621E1201

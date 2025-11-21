@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.221E1C
-test_cases:
-- expected_values:
-    FORD_TOT: 82.875
-  response: 7E805621E1C052E
-- expected_values:
-    FORD_TOT: 85.5625
-  response: 7E805621E1C0559

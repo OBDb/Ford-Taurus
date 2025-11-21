@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221E12|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_GEAR: '1'
+  response: 7E804621E1201
+- expected_values:
+    TAURUS_GEAR: '6'
+  response: 7E804621E1206

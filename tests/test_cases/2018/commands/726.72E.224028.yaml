@@ -1,14 +1,14 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
-    FORD_12V_SOC: 0
+    TAURUS_BATT_SOC: 0
   response: '72E0462402800'
 - expected_values:
-    FORD_12V_SOC: 98
+    TAURUS_BATT_SOC: 38.43137
   response: '72E0462402862'
 - expected_values:
-    FORD_12V_SOC: 99
+    TAURUS_BATT_SOC: 38.82353
   response: '72E0462402863'
 - expected_values:
-    FORD_12V_SOC: 100
+    TAURUS_BATT_SOC: 39.21569
   response: '72E0462402864'

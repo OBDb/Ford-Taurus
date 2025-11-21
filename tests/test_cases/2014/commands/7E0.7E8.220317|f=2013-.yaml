@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.220317|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_VCT_EXH_DUTY: 0
+  response: '7E8056203170000'
+- expected_values:
+    TAURUS_VCT_EXH_DUTY: 0
+  response: |-
+    7E8056203170000
+    OK
+- expected_values:
+    TAURUS_VCT_EXH_DUTY: 49.20959
+  response: 7E8056203173EFD
+- expected_values:
+    TAURUS_VCT_EXH_DUTY: 79.99878
+  response: '7E8056203176666'
