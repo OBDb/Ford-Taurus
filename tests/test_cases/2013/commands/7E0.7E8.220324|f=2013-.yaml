@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.220324|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_HPFP_V: 0.73314
+  response: '7E8056203240096'
+- expected_values:
+    TAURUS_HPFP_V: 0.75269
+  response: 7E805620324009A
+- expected_values:
+    TAURUS_HPFP_V: 0.76246
+  response: 7E805620324009C
+- expected_values:
+    TAURUS_HPFP_V: 0.82111
+  response: 7E80562032400A8
+- expected_values:
+    TAURUS_HPFP_V: 1.02639
+  response: 7E80562032400D2
+- expected_values:
+    TAURUS_HPFP_V: 1.03617
+  response: 7E80562032400D4
+- expected_values:
+    TAURUS_HPFP_V: 1.04106
+  response: 7E80562032400D5

@@ -1,0 +1,35 @@
+command_id: 7E0.7E8.22038F|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_ECT: 88.0625
+  response: "22038F1\n7E8 05 62 03 8F 16 04 "
+- expected_values:
+    TAURUS_ECT: 84.59375
+  response: '7E8 05 62 03 8F 15 26 '
+- expected_values:
+    TAURUS_ECT: 85.57812
+  response: '7E8 05 62 03 8F 15 65 '
+- expected_values:
+    TAURUS_ECT: 86.98438
+  response: '7E8 05 62 03 8F 15 BF '
+- expected_values:
+    TAURUS_ECT: 88.85938
+  response: '7E8 05 62 03 8F 16 37 '
+- expected_values:
+    TAURUS_ECT: 91.95312
+  response: '7E8 05 62 03 8F 16 FD '
+- expected_values:
+    TAURUS_ECT: 37.95312
+  response: 7E80562038F097D
+- expected_values:
+    TAURUS_ECT: 83.98438
+  response: 7E80562038F14FF
+- expected_values:
+    TAURUS_ECT: 88
+  response: 7E80562038F1600
+- expected_values:
+    TAURUS_ECT: 100.0625
+  response: 7E80562038F1904
+- expected_values:
+    TAURUS_ECT: 87.14062
+  response: "SEARCHING...\n7E8 05 62 03 8F 15 C9 "

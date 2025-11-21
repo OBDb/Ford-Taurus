@@ -1,0 +1,62 @@
+command_id: 7DF.221E1C|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_TOT: 66.6875
+  response: |-
+    221E1C
+    7E805621E1C042B
+- expected_values:
+    TAURUS_TOT: 64.625
+  response: "221E1C1\n7E8 05 62 1E 1C 04 0A "
+- expected_values:
+    TAURUS_TOT: 75.4375
+  response: "221E1C1\n7E8 05 62 1E 1C 04 B7 "
+- expected_values:
+    TAURUS_TOT: 74.75
+  response: |-
+    221E1C1
+    7E805621E1C04AC
+- expected_values:
+    TAURUS_TOT: 67.375
+  response: '7E8 05 62 1E 1C 04 36 '
+- expected_values:
+    TAURUS_TOT: 69.9375
+  response: '7E8 05 62 1E 1C 04 5F '
+- expected_values:
+    TAURUS_TOT: 76
+  response: '7E8 05 62 1E 1C 04 C0 '
+- expected_values:
+    TAURUS_TOT: 96.1875
+  response: '7E8 05 62 1E 1C 06 03 '
+- expected_values:
+    TAURUS_TOT: 33.25
+  response: 7E805621E1C0214
+- expected_values:
+    TAURUS_TOT: 47.9375
+  response: 7E805621E1C02FF
+- expected_values:
+    TAURUS_TOT: 48.0625
+  response: 7E805621E1C0301
+- expected_values:
+    TAURUS_TOT: 96.4375
+  response: 7E805621E1C0607
+- expected_values:
+    TAURUS_TOT: 65.5
+  response: |-
+    SEARCHING...
+    7E805621E1C0418
+- expected_values:
+    TAURUS_TOT: 66.1875
+  response: |-
+    SEARCHING...
+    7E805621E1C0423
+- expected_values:
+    TAURUS_TOT: 76.8125
+  response: |-
+    SEARCHING...
+    7E805621E1C04CD
+- expected_values:
+    TAURUS_TOT: 89.375
+  response: |-
+    SEARCHING...
+    7E805621E1C0596

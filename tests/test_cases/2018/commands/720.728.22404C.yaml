@@ -1,51 +1,51 @@
 command_id: 720.728.22404C
 test_cases:
 - expected_values:
-    FORD_ODO_V3: 455743.7
+    TAURUS_ODO: 455743.7
   response: |-
     22404C
     7280662404C458A7D
 - expected_values:
-    FORD_ODO_V3: 473874.6
+    TAURUS_ODO: 473874.6
   response: "22404C1\n728 06 62 40 4C 48 4E BA "
 - expected_values:
-    FORD_ODO_V3: 473874.7
+    TAURUS_ODO: 473874.7
   response: "22404C1\n728 06 62 40 4C 48 4E BB "
 - expected_values:
-    FORD_ODO_V3: 452333.4
+    TAURUS_ODO: 452333.4
   response: '728 06 62 40 4C 45 05 46 '
 - expected_values:
-    FORD_ODO_V3: 452558
+    TAURUS_ODO: 452558
   response: '728 06 62 40 4C 45 0E 0C '
 - expected_values:
-    FORD_ODO_V3: 452558.2
+    TAURUS_ODO: 452558.2
   response: '728 06 62 40 4C 45 0E 0E '
 - expected_values:
-    FORD_ODO_V3: 465270.7
+    TAURUS_ODO: 465270.7
   response: '728 06 62 40 4C 46 FE A3 '
 - expected_values:
-    FORD_ODO_V3: 478932.4
+    TAURUS_ODO: 478932.4
   response: '728 06 62 40 4C 49 14 4C '
 - expected_values:
-    FORD_ODO_V3: 144840.7
+    TAURUS_ODO: 144840.7
   response: 7280662404C1619D7
 - expected_values:
-    FORD_ODO_V3: 144844.7
+    TAURUS_ODO: 144844.7
   response: 7280662404C1619FF
 - expected_values:
-    FORD_ODO_V3: 452966.4
+    TAURUS_ODO: 452966.4
   response: 7280662404C451E00
 - expected_values:
-    FORD_ODO_V3: 465292.6
+    TAURUS_ODO: 465292.6
   response: 7280662404C46FF7E
 - expected_values:
-    FORD_ODO_V3: 484975.1
+    TAURUS_ODO: 484975.1
   response: 7280662404C4A0057
 - expected_values:
-    FORD_ODO_V3: 452338.6
+    TAURUS_ODO: 452338.6
   response: "SEARCHING...\n728 06 62 40 4C 45 05 7A "
 - expected_values:
-    FORD_ODO_V3: 452338.2
+    TAURUS_ODO: 452338.2
   response: |-
     SEARCHING...
     7280662404C450576

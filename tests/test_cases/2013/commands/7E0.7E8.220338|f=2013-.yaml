@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220338|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0.58398
+  response: 7E805620338012B
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0.63086
+  response: '7E8056203380143'

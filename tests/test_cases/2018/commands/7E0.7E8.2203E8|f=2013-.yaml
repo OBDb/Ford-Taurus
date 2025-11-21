@@ -1,0 +1,39 @@
+command_id: 7E0.7E8.2203E8|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_OAR: 0
+  response: "2203E81\n7E8 05 62 03 E8 EC 33 "
+- expected_values:
+    TAURUS_OAR: 0.41827
+  response: '7E8 05 62 03 E8 1A C5 '
+- expected_values:
+    TAURUS_OAR: 0
+  response: '7E8 05 62 03 E8 EA 1B '
+- expected_values:
+    TAURUS_OAR: 0
+  response: '7E8 05 62 03 E8 F8 87 '
+- expected_values:
+    TAURUS_OAR: 0.00543
+  response: 7E8056203E80059
+- expected_values:
+    TAURUS_OAR: 0.25
+  response: 7E8056203E81000
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8EEFD
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8FF71
+- expected_values:
+    TAURUS_OAR: 0
+  response: "SEARCHING...\n7E8 05 62 03 E8 F8 87 "
+- expected_values:
+    TAURUS_OAR: 0.32239
+  response: |-
+    SEARCHING...
+    7E8056203E814A2
+- expected_values:
+    TAURUS_OAR: 0
+  response: |-
+    SEARCHING...
+    7E8056203E8EFF0
