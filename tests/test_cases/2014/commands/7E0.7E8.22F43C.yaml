@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    TAURUS_CAT_TEMP: 480.4
-  response: 7E80562F43C1454
+    TAURUS_CAT_TEMP: 479.4
+  response: 7E80562F43C144A
 - expected_values:
     TAURUS_CAT_TEMP: 495.9
   response: 7E80562F43C14EF

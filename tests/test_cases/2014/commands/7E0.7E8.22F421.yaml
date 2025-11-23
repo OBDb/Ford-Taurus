@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F421
 test_cases:
 - expected_values:
+    TAURUS_MIL_DIST: 0
+  response: 7E80562F4210000
+- expected_values:
     TAURUS_MIL_DIST: 713
   response: 7E80562F42102C9
 - expected_values:

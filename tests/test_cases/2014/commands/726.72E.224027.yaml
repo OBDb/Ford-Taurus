@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_BATT_AGE: 67
   response: '72E056240270043'
+- expected_values:
+    TAURUS_BATT_AGE: 69
+  response: '72E056240270045'

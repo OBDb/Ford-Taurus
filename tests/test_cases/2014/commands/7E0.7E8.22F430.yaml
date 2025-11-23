@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    TAURUS_WARMUP_CLR: 0
+  response: 7E80462F43000
+- expected_values:
     TAURUS_WARMUP_CLR: 12
   response: 7E80462F4300C
 - expected_values:
