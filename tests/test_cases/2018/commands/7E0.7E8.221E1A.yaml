@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221E1A
+test_cases:
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 392
+  response: 7E805621E1A00C4
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 492
+  response: 7E805621E1A00F6
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 568
+  response: 7E805621E1A011C
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 572
+  response: 7E805621E1A011E
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 664
+  response: 7E805621E1A014C
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 688
+  response: 7E805621E1A0158
