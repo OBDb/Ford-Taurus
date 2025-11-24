@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220382
+test_cases:
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: 0
+  response: '7E80462038200'
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: 0.01562
+  response: '7E80462038201'
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: 0.04688
+  response: '7E80462038203'
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: 0.1875
+  response: 7E8046203820C
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: -0.14062
+  response: 7E804620382F7
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: -0.125
+  response: 7E804620382F8
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: -0.10938
+  response: 7E804620382F9
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL1_NORM: -0.03125
+  response: 7E804620382FE
