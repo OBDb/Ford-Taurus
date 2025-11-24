@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    TAURUS_CAT_TEMP: 503.7
+  response: 7E80562F43C153D
+- expected_values:
+    TAURUS_CAT_TEMP: 510.1
+  response: 7E80562F43C157D
+- expected_values:
+    TAURUS_CAT_TEMP: 518.7
+  response: 7E80562F43C15D3
+- expected_values:
+    TAURUS_CAT_TEMP: 522.3
+  response: 7E80562F43C15F7
+- expected_values:
+    TAURUS_CAT_TEMP: 533.7
+  response: 7E80562F43C1669
+- expected_values:
+    TAURUS_CAT_TEMP: 542
+  response: 7E80562F43C16BC
+- expected_values:
+    TAURUS_CAT_TEMP: 542.6
+  response: 7E80562F43C16C2
+- expected_values:
+    TAURUS_CAT_TEMP: 550.8
+  response: 7E80562F43C1714
+- expected_values:
+    TAURUS_CAT_TEMP: 559.1
+  response: 7E80562F43C1767
+- expected_values:
+    TAURUS_CAT_TEMP: 566.9
+  response: 7E80562F43C17B5

@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220403
+test_cases:
+- expected_values:
+    TAURUS_KS1_RAW: 63
+  response: 7E805620403003F
+- expected_values:
+    TAURUS_KS1_RAW: 66
+  response: '7E8056204030042'
+- expected_values:
+    TAURUS_KS1_RAW: 71
+  response: '7E8056204030047'
+- expected_values:
+    TAURUS_KS1_RAW: 76
+  response: 7E805620403004C
+- expected_values:
+    TAURUS_KS1_RAW: 79
+  response: 7E805620403004F
+- expected_values:
+    TAURUS_KS1_RAW: 81
+  response: '7E8056204030051'
+- expected_values:
+    TAURUS_KS1_RAW: 88
+  response: '7E8056204030058'
+- expected_values:
+    TAURUS_KS1_RAW: 117
+  response: '7E8056204030075'
