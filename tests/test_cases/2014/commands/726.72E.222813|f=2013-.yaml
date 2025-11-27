@@ -1,8 +1,8 @@
 command_id: 726.72E.222813|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_TP_FL: 30.7
-  response: '72E056228130266'
+    TAURUS_TP_FL: 29.6
+  response: '72E056228130250'
 - expected_values:
     TAURUS_TP_FL: 34.2
   response: 72E0562281302AC
