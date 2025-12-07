@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_TPMS_WARN: 0
   response: 728076261A500000400
+- expected_values:
+    TAURUS_TPMS_WARN: 0
+  response: 728076261A500800400
