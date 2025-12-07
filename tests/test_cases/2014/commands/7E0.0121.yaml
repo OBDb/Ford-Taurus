@@ -4,6 +4,9 @@ test_cases:
     MIL_DIST: 0
   response: '7E80441210000'
 - expected_values:
+    MIL_DIST: 104
+  response: '7E80441210068'
+- expected_values:
     MIL_DIST: 713
   response: 7E804412102C9
 - expected_values:

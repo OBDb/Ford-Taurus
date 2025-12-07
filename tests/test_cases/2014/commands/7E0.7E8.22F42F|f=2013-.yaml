@@ -4,5 +4,5 @@ test_cases:
     TAURUS_FLI: 0
   response: 7E80462F42F00
 - expected_values:
-    TAURUS_FLI: 99.21569
-  response: 7E80462F42FFD
+    TAURUS_FLI: 99.60784
+  response: 7E80462F42FFE
