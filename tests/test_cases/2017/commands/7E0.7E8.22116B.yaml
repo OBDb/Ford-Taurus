@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22116B
+test_cases:
+- expected_values:
+    TAURUS_IGN_TIM_CYL1: 4.25
+  response: 7E80562116B0011
+- expected_values:
+    TAURUS_IGN_TIM_CYL1: 15
+  response: 7E80562116B003C

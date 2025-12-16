@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22035F|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_RO2_V: 0.68652
+  response: 7E80562035F02BF
+- expected_values:
+    TAURUS_RO2_V: 0.74707
+  response: 7E80562035F02FD
+- expected_values:
+    TAURUS_RO2_V: 0.75293
+  response: 7E80562035F0303
+- expected_values:
+    TAURUS_RO2_V: 1
+  response: 7E80562035F06C5
