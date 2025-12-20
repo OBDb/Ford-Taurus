@@ -4,6 +4,9 @@ test_cases:
     TAURUS_VCT_INT_DUTY: 0
   response: '7E8056203160000'
 - expected_values:
+    TAURUS_VCT_INT_DUTY: 36.30981
+  response: 7E8056203162E7A
+- expected_values:
     TAURUS_VCT_INT_DUTY: 43.47229
   response: 7E80562031637A5
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     TAURUS_VCT_INT_DUTY: 44.36646
   response: 7E80562031638CA
+- expected_values:
+    TAURUS_VCT_INT_DUTY: 45.46204
+  response: 7E8056203163A31
 - expected_values:
     TAURUS_VCT_INT_DUTY: 46.02661
   response: 7E8056203163AEA

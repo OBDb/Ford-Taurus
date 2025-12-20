@@ -1,0 +1,8 @@
+command_id: 726.72E.224029
+test_cases:
+- expected_values:
+    TAURUS_BATT_TEMP: 11
+  response: '72E0462402933'
+- expected_values:
+    TAURUS_BATT_TEMP: 12
+  response: '72E0462402934'

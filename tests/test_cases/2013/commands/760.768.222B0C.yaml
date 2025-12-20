@@ -1,0 +1,23 @@
+command_id: 760.768.222B0C
+test_cases:
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0000
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0002
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0004
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0006
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0008
+- expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0037
+- expected_values:
+    TAURUS_LAT_ANG: -1
+  response: 76805622B0CFFE4

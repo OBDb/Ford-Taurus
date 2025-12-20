@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220334
+test_cases:
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 81.90625
+  response: 7E805620334147A
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 86.40625
+  response: 7E805620334159A
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 89.35938
+  response: '7E8056203341657'
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 90.10938
+  response: '7E8056203341687'
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 91.9375
+  response: 7E80562033416FC
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 92.1875
+  response: 7E805620334170C
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 93.26562
+  response: '7E8056203341751'
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 96.20312
+  response: 7E805620334180D

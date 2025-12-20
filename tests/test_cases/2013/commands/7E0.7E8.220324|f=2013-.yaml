@@ -4,6 +4,12 @@ test_cases:
     TAURUS_HPFP_V: 0.73314
   response: '7E8056203240096'
 - expected_values:
+    TAURUS_HPFP_V: 0.73803
+  response: '7E8056203240097'
+- expected_values:
+    TAURUS_HPFP_V: 0.74291
+  response: '7E8056203240098'
+- expected_values:
     TAURUS_HPFP_V: 0.75269
   response: 7E805620324009A
 - expected_values:
@@ -21,3 +27,6 @@ test_cases:
 - expected_values:
     TAURUS_HPFP_V: 1.04106
   response: 7E80562032400D5
+- expected_values:
+    TAURUS_HPFP_V: 1.11437
+  response: 7E80562032400E4

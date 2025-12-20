@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22030F|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_CL: 0.98099
-  response: 7E80562030F7D91
+    TAURUS_CL: 0.79999
+  response: 7E80562030F6666
 - expected_values:
     TAURUS_CL: 0.98413
   response: 7E80562030F7DF8
@@ -10,17 +10,5 @@ test_cases:
     TAURUS_CL: 1.0004
   response: 7E80562030F800D
 - expected_values:
-    TAURUS_CL: 1.00266
-  response: 7E80562030F8057
-- expected_values:
-    TAURUS_CL: 1.00406
-  response: 7E80562030F8085
-- expected_values:
-    TAURUS_CL: 1.00668
-  response: 7E80562030F80DB
-- expected_values:
-    TAURUS_CL: 1.0123
-  response: 7E80562030F8193
-- expected_values:
-    TAURUS_CL: 1.0152
-  response: 7E80562030F81F2
+    TAURUS_CL: 1.0087
+  response: 7E80562030F811D

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 538
+  response: 7E80562F431021A
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 539
+  response: 7E80562F431021B
