@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.2203CA|f=2013-
 test_cases:
 - expected_values:
+    TAURUS_MCT: 75
+  response: 7E8046203CA4B
+- expected_values:
+    TAURUS_MCT: 79
+  response: 7E8046203CA4F
+- expected_values:
+    TAURUS_MCT: 80
+  response: 7E8046203CA50
+- expected_values:
+    TAURUS_MCT: 83
+  response: 7E8046203CA53
+- expected_values:
     TAURUS_MCT: 84
   response: 7E8046203CA54
 - expected_values:

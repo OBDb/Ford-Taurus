@@ -19,5 +19,14 @@ test_cases:
     TAURUS_VCT_INT_ERR: 1.25
   response: 7E80562031A0014
 - expected_values:
+    TAURUS_VCT_INT_ERR: 2.4375
+  response: 7E80562031A0027
+- expected_values:
+    TAURUS_VCT_INT_ERR: 5.625
+  response: 7E80562031A005A
+- expected_values:
+    TAURUS_VCT_INT_ERR: -0.25
+  response: 7E80562031AFFFC
+- expected_values:
     TAURUS_VCT_INT_ERR: -0.0625
   response: 7E80562031AFFFF

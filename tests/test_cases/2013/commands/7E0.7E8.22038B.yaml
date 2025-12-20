@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22038B
+test_cases:
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: 0
+  response: 7E80462038B00
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: -0.17188
+  response: 7E80462038BF5
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: -0.07812
+  response: 7E80462038BFB
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: -0.04688
+  response: 7E80462038BFD
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: -0.03125
+  response: 7E80462038BFE

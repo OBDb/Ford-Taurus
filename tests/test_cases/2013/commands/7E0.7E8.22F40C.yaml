@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    TAURUS_RPM: 699.5
+  response: 7E80562F40C0AEE
+- expected_values:
+    TAURUS_RPM: 705.5
+  response: 7E80562F40C0B06
+- expected_values:
+    TAURUS_RPM: 707.25
+  response: 7E80562F40C0B0D
+- expected_values:
+    TAURUS_RPM: 710.75
+  response: 7E80562F40C0B1B
+- expected_values:
+    TAURUS_RPM: 861
+  response: 7E80562F40C0D74
+- expected_values:
+    TAURUS_RPM: 1095.75
+  response: 7E80562F40C111F
+- expected_values:
+    TAURUS_RPM: 1247
+  response: 7E80562F40C137C
+- expected_values:
+    TAURUS_RPM: 1356.5
+  response: 7E80562F40C1532

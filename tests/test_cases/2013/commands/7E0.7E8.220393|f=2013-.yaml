@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.220393|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_AC_P: 111.96914
-  response: '7E8056203930182'
-- expected_values:
-    TAURUS_AC_P: 112.54929
-  response: '7E8056203930184'
-- expected_values:
-    TAURUS_AC_P: 113.12944
-  response: '7E8056203930186'
-- expected_values:
-    TAURUS_AC_P: 113.70959
-  response: '7E8056203930188'
+    TAURUS_AC_P: 91.95393
+  response: 7E805620393013D
 - expected_values:
     TAURUS_AC_P: 114.28975
   response: 7E805620393018A
