@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220307|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_LPFP_DUTY: 35.98328
-  response: 7E8056203072E0F
+    TAURUS_LPFP_DUTY: 35.79102
+  response: 7E8056203072DD0
 - expected_values:
     TAURUS_LPFP_DUTY: 36.71265
   response: 7E8056203072EFE
