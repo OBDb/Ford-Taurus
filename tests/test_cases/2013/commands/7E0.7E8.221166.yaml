@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 10.65369
+  response: 7E8056211660DA3
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 21.01135
+  response: 7E8056211661AE5
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 22.07031
+  response: 7E8056211661C40
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 67.20886
+  response: '7E8056211665607'
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 68.75
+  response: '7E8056211665800'
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 73.71826
+  response: 7E8056211665E5C
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 89.12659
+  response: '7E8056211667215'
