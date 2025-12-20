@@ -4,6 +4,9 @@ test_cases:
     TAURUS_WARMUP_CLR: 0
   response: 7E80462F43000
 - expected_values:
+    TAURUS_WARMUP_CLR: 7
+  response: 7E80462F43007
+- expected_values:
     TAURUS_WARMUP_CLR: 12
   response: 7E80462F4300C
 - expected_values:
