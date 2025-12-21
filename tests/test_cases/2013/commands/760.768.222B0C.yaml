@@ -8,6 +8,9 @@ test_cases:
   response: 76805622B0C0002
 - expected_values:
     TAURUS_LAT_ANG: 0
+  response: 76805622B0C0003
+- expected_values:
+    TAURUS_LAT_ANG: 0
   response: 76805622B0C0004
 - expected_values:
     TAURUS_LAT_ANG: 0
@@ -17,7 +20,13 @@ test_cases:
   response: 76805622B0C0008
 - expected_values:
     TAURUS_LAT_ANG: 0
+  response: 76805622B0C0009
+- expected_values:
+    TAURUS_LAT_ANG: 0
   response: 76805622B0C0037
 - expected_values:
     TAURUS_LAT_ANG: -1
   response: 76805622B0CFFE4
+- expected_values:
+    TAURUS_LAT_ANG: -1
+  response: 76805622B0CFFF0

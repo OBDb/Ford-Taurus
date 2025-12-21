@@ -7,20 +7,8 @@ test_cases:
     TAURUS_LPFP_SENS_V: 3.01758
   response: 7E80562054D0C12
 - expected_values:
-    TAURUS_LPFP_SENS_V: 3.06641
-  response: 7E80562054D0C44
-- expected_values:
-    TAURUS_LPFP_SENS_V: 3.08105
-  response: 7E80562054D0C53
-- expected_values:
-    TAURUS_LPFP_SENS_V: 3.19336
-  response: 7E80562054D0CC6
-- expected_values:
-    TAURUS_LPFP_SENS_V: 3.31055
-  response: 7E80562054D0D3E
-- expected_values:
-    TAURUS_LPFP_SENS_V: 3.4668
-  response: 7E80562054D0DDE
+    TAURUS_LPFP_SENS_V: 3.22754
+  response: 7E80562054D0CE9
 - expected_values:
     TAURUS_LPFP_SENS_V: 3.53027
   response: 7E80562054D0E1F
