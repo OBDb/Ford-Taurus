@@ -4,26 +4,8 @@ test_cases:
     CLR_DIST: 22
   response: '7E80441310016'
 - expected_values:
-    CLR_DIST: 23
-  response: '7E80441310017'
-- expected_values:
-    CLR_DIST: 24
-  response: '7E80441310018'
-- expected_values:
     CLR_DIST: 537
   response: '7E80441310219'
 - expected_values:
-    CLR_DIST: 538
-  response: 7E8044131021A
-- expected_values:
-    CLR_DIST: 539
-  response: 7E8044131021B
-- expected_values:
-    CLR_DIST: 540
-  response: 7E8044131021C
-- expected_values:
-    CLR_DIST: 541
-  response: 7E8044131021D
-- expected_values:
-    CLR_DIST: 542
-  response: 7E8044131021E
+    CLR_DIST: 549
+  response: '7E80441310225'
