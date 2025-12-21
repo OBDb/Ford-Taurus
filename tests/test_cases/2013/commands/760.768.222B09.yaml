@@ -4,11 +4,5 @@ test_cases:
     TAURUS_RL_VSS: 0
   response: 76804622B0900
 - expected_values:
-    TAURUS_RL_VSS: 20
-  response: 76804622B0914
-- expected_values:
-    TAURUS_RL_VSS: 38
-  response: 76804622B0926
-- expected_values:
-    TAURUS_RL_VSS: 64
-  response: 76804622B0940
+    TAURUS_RL_VSS: 70
+  response: 76804622B0946

@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     TAURUS_MIL_DIST: 320
   response: 7E80562F4210140
+- expected_values:
+    TAURUS_MIL_DIST: 321
+  response: 7E80562F4210141
+- expected_values:
+    TAURUS_MIL_DIST: 322
+  response: 7E80562F4210142
+- expected_values:
+    TAURUS_MIL_DIST: 323
+  response: 7E80562F4210143
