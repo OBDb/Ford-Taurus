@@ -10,5 +10,5 @@ test_cases:
     TAURUS_ECT: 83.98438
   response: 7E80562038F14FF
 - expected_values:
-    TAURUS_ECT: 96.125
-  response: 7E80562038F1808
+    TAURUS_ECT: 100.04688
+  response: 7E80562038F1903
