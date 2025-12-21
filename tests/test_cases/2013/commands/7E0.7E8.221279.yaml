@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
-    TAURUS_IAT_SENS_V: 2.65885
-  response: '7E8056212790220'
+    TAURUS_IAT_SENS_V: 2.07722
+  response: 7E80562127901A9
 - expected_values:
-    TAURUS_IAT_SENS_V: 2.68817
-  response: '7E8056212790226'
+    TAURUS_IAT_SENS_V: 2.26295
+  response: 7E80562127901CF
 - expected_values:
-    TAURUS_IAT_SENS_V: 2.71261
-  response: 7E805621279022B
-- expected_values:
-    TAURUS_IAT_SENS_V: 2.82991
-  response: '7E8056212790243'
-- expected_values:
-    TAURUS_IAT_SENS_V: 2.97165
-  response: '7E8056212790260'
-- expected_values:
-    TAURUS_IAT_SENS_V: 2.9912
-  response: '7E8056212790264'
-- expected_values:
-    TAURUS_IAT_SENS_V: 3.00098
-  response: '7E8056212790266'
-- expected_values:
-    TAURUS_IAT_SENS_V: 3.21114
-  response: '7E8056212790291'
+    TAURUS_IAT_SENS_V: 2.61486
+  response: '7E8056212790217'

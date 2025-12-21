@@ -4,5 +4,26 @@ test_cases:
     TAURUS_LTFT: 11.71875
   response: 7E80462F4078F
 - expected_values:
+    TAURUS_LTFT: 17.1875
+  response: 7E80462F40796
+- expected_values:
+    TAURUS_LTFT: 17.96875
+  response: 7E80462F40797
+- expected_values:
+    TAURUS_LTFT: 20.3125
+  response: 7E80462F4079A
+- expected_values:
+    TAURUS_LTFT: 21.09375
+  response: 7E80462F4079B
+- expected_values:
+    TAURUS_LTFT: 21.875
+  response: 7E80462F4079C
+- expected_values:
+    TAURUS_LTFT: 22.65625
+  response: 7E80462F4079D
+- expected_values:
+    TAURUS_LTFT: 25
+  response: 7E80462F407A0
+- expected_values:
     TAURUS_LTFT: 25.78125
   response: 7E80462F407A1

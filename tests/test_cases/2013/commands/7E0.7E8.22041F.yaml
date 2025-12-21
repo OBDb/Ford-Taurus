@@ -4,23 +4,5 @@ test_cases:
     TAURUS_LPFP_DES: 65.25
   response: 7E80462041F96
 - expected_values:
-    TAURUS_LPFP_DES: 67.425
-  response: 7E80462041F9B
-- expected_values:
-    TAURUS_LPFP_DES: 70.47
-  response: 7E80462041FA2
-- expected_values:
-    TAURUS_LPFP_DES: 70.905
-  response: 7E80462041FA3
-- expected_values:
-    TAURUS_LPFP_DES: 73.08
-  response: 7E80462041FA8
-- expected_values:
-    TAURUS_LPFP_DES: 75.255
-  response: 7E80462041FAD
-- expected_values:
-    TAURUS_LPFP_DES: 76.995
-  response: 7E80462041FB1
-- expected_values:
-    TAURUS_LPFP_DES: 79.17
-  response: 7E80462041FB6
+    TAURUS_LPFP_DES: 79.605
+  response: 7E80462041FB7

@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22057D
 test_cases:
 - expected_values:
+    TAURUS_AAT_ALT: 6
+  response: 7E80462057D5C
+- expected_values:
     TAURUS_AAT_ALT: 7
   response: 7E80462057D5E
 - expected_values:
@@ -9,3 +12,9 @@ test_cases:
 - expected_values:
     TAURUS_AAT_ALT: 9
   response: 7E80462057D62
+- expected_values:
+    TAURUS_AAT_ALT: 10
+  response: 7E80462057D64
+- expected_values:
+    TAURUS_AAT_ALT: 11
+  response: 7E80462057D66

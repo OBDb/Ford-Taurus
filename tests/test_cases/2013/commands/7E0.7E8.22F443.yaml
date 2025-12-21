@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.22F443
 test_cases:
 - expected_values:
-    TAURUS_ENG_LOAD_ACT: 20
-  response: 7E80562F4430033
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 20.39216
-  response: 7E80562F4430034
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 21.56863
-  response: 7E80562F4430037
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 21.96078
-  response: 7E80562F4430038
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 33.72549
-  response: 7E80562F4430056
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 40.78431
-  response: 7E80562F4430068
-- expected_values:
-    TAURUS_ENG_LOAD_ACT: 49.01961
-  response: 7E80562F443007D
+    TAURUS_ENG_LOAD_ACT: 11.76471
+  response: 7E80562F443001E
 - expected_values:
     TAURUS_ENG_LOAD_ACT: 53.72549
   response: 7E80562F4430089

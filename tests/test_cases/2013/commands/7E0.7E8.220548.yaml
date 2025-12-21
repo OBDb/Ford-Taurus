@@ -4,23 +4,8 @@ test_cases:
     TAURUS_LPFP_ACT: 64.61579
   response: 7E805620548037B
 - expected_values:
-    TAURUS_LPFP_ACT: 64.68831
-  response: 7E805620548037C
-- expected_values:
-    TAURUS_LPFP_ACT: 67.29905
-  response: 7E80562054803A0
-- expected_values:
     TAURUS_LPFP_ACT: 71.79532
   response: 7E80562054803DE
 - expected_values:
     TAURUS_LPFP_ACT: 74.40606
   response: '7E8056205480402'
-- expected_values:
-    TAURUS_LPFP_ACT: 74.62362
-  response: '7E8056205480405'
-- expected_values:
-    TAURUS_LPFP_ACT: 77.16184
-  response: '7E8056205480428'
-- expected_values:
-    TAURUS_LPFP_ACT: 78.68477
-  response: 7E805620548043D

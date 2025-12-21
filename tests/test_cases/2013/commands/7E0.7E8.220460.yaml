@@ -1,23 +1,14 @@
 command_id: 7E0.7E8.220460
 test_cases:
 - expected_values:
-    TAURUS_CAT_SENS_V: 2.41699
-  response: 7E80562046009AB
+    TAURUS_CAT_SENS_V: 1.98242
+  response: 7E80562046007EE
 - expected_values:
     TAURUS_CAT_SENS_V: 2.49512
   response: 7E80562046009FB
 - expected_values:
-    TAURUS_CAT_SENS_V: 2.54883
-  response: 7E8056204600A32
+    TAURUS_CAT_SENS_V: 2.50977
+  response: 7E8056204600A0A
 - expected_values:
-    TAURUS_CAT_SENS_V: 2.56836
-  response: 7E8056204600A46
-- expected_values:
-    TAURUS_CAT_SENS_V: 2.60742
-  response: 7E8056204600A6E
-- expected_values:
-    TAURUS_CAT_SENS_V: 2.65625
-  response: 7E8056204600AA0
-- expected_values:
-    TAURUS_CAT_SENS_V: 2.95898
-  response: 7E8056204600BD6
+    TAURUS_CAT_SENS_V: 3.01758
+  response: 7E8056204600C12

@@ -1,20 +1,8 @@
 command_id: 7E0.7E8.22F40F
 test_cases:
 - expected_values:
-    TAURUS_IAT_ALT2: 23
-  response: 7E80462F40F3F
+    TAURUS_IAT_ALT2: 16
+  response: 7E80462F40F38
 - expected_values:
-    TAURUS_IAT_ALT2: 24
-  response: 7E80462F40F40
-- expected_values:
-    TAURUS_IAT_ALT2: 27
-  response: 7E80462F40F43
-- expected_values:
-    TAURUS_IAT_ALT2: 29
-  response: 7E80462F40F45
-- expected_values:
-    TAURUS_IAT_ALT2: 30
-  response: 7E80462F40F46
-- expected_values:
-    TAURUS_IAT_ALT2: 31
-  response: 7E80462F40F47
+    TAURUS_IAT_ALT2: 43
+  response: 7E80462F40F53

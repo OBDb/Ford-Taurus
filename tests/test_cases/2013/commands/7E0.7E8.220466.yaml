@@ -4,11 +4,8 @@ test_cases:
     TAURUS_TIP_DES_ABS: 13.94318
   response: 7E805620466313A
 - expected_values:
-    TAURUS_TIP_DES_ABS: 13.94429
-  response: 7E805620466313B
-- expected_values:
-    TAURUS_TIP_DES_ABS: 14.118
-  response: 7E80562046631D8
+    TAURUS_TIP_DES_ABS: 14.72653
+  response: 7E80562046633FE
 - expected_values:
     TAURUS_TIP_DES_ABS: 14.73981
   response: 7E805620466340A

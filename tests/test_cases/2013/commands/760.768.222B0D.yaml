@@ -5,7 +5,16 @@ test_cases:
   response: 76805622B0D0000
 - expected_values:
     TAURUS_BRK_FL_P: 0
+  response: 76805622B0D0002
+- expected_values:
+    TAURUS_BRK_FL_P: 0
+  response: 76805622B0D0025
+- expected_values:
+    TAURUS_BRK_FL_P: 0
   response: 76805622B0D0029
+- expected_values:
+    TAURUS_BRK_FL_P: 0
+  response: 76805622B0D0057
 - expected_values:
     TAURUS_BRK_FL_P: 0
   response: 76805622B0D0063
