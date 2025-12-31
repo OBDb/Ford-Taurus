@@ -1,8 +1,8 @@
 command_id: 726.72E.222815|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_TP_RRO: 29.85
-  response: '72E056228150255'
+    TAURUS_TP_RRO: 28.6
+  response: 72E05622815023C
 - expected_values:
     TAURUS_TP_RRO: 34.6
   response: 72E0562281502B4
