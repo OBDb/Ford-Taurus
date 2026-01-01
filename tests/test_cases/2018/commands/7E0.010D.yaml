@@ -13,6 +13,9 @@ test_cases:
     VSS: 61
   response: '7E8 03 41 0D 3D '
 - expected_values:
+    VSS: 65
+  response: '7E8 03 41 0D 41 '
+- expected_values:
     VSS: 0
   response: 7E803410D00
 - expected_values:
