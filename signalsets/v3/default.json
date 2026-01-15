@@ -3,10 +3,6 @@
   "signals": [
     {"id": "TAURUS_ODO", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "720", "rax": "728", "dbg": true, "cmd": {"22": "6185"}, "freq": 5, "filter": { "from": 2013 },
-  "signals": [
-    {"id": "TAURUS_FLI_ALT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level, alternate", "suggestedMetric": "fuelTankLevel"}
-  ]},
 { "hdr": "720", "rax": "728", "cmd": {"22": "61A5"}, "freq": 10, "filter": { "from": 2012 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
     {"id": "TAURUS_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning"}
@@ -83,13 +79,9 @@
   "signals": [
     {"id": "TAURUS_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "764", "rax": "76C", "dbg": true, "cmd": {"22": "A224"}, "freq": 0.5,
-  "signals": [
-    {"id": "TAURUS_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target speed", "description": "The speed of the vehicle ahead of you."}
-  ]},
 { "hdr": "7DF", "cmd": {"22": "1E1C"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature"}
+    {"id": "TAURUS_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "div": 16, "unit": "celsius" }, "name": "Transmission temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -101,7 +93,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "030F"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+    {"id": "TAURUS_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "suggestedMetric": "commandedLambda", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -193,7 +185,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 2, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature"}
+    {"id": "TAURUS_ECT", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 2, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -246,10 +238,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0404"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
     {"id": "TAURUS_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0415"}, "freq": 1,
-  "signals": [
-    {"id": "TAURUS_PCM_ENG_EOP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Oil pressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "041F"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
@@ -319,14 +307,6 @@
   "signals": [
     {"id": "TAURUS_PCM_CYL_6_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05FC"}, "freq": 2,
-  "signals": [
-    {"id": "TAURUS_PCM_CYL_HEAD_T_SENS_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 511.984375, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature, sensor 2"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0604"}, "freq": 1,
-  "signals": [
-    {"id": "TAURUS_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
     {"id": "TAURUS_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
@@ -391,10 +371,6 @@
   "signals": [
     {"id": "TAURUS_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1F"}, "freq": 1,
-  "signals": [
-    {"id": "TAURUS_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2015, 2016], "from": 2019 },
   "signals": [
     {"id": "TAURUS_GEAR_SHFT", "path": "Transmission", "name": "Gear, shift", "fmt": {"len": 8, "map": {
@@ -406,25 +382,17 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4194"}, "freq": 5,
-  "signals": [
-    {"id": "TAURUS_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4195"}, "freq": 5,
-  "signals": [
-    {"id": "TAURUS_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
     {"id": "TAURUS_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 0.5, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load"}
+    {"id": "TAURUS_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term"}
+    {"id": "TAURUS_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 0.5, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -440,7 +408,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+    {"id": "TAURUS_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 2, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -460,7 +428,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
+    {"id": "TAURUS_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
@@ -468,19 +436,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "dbgfilter": { "to": 2012, "years": [2015, 2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F462"}, "freq": 1,
-  "signals": [
-    {"id": "TAURUS_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F463"}, "freq": 1,
-  "signals": [
-    {"id": "TAURUS_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F4A6"}, "freq": 5,
-  "signals": [
-    {"id": "TAURUS_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer"}
+    {"id": "TAURUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
   ]}
 ]
 }
