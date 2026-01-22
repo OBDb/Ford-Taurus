@@ -4,8 +4,8 @@ test_cases:
     TAURUS_AC_P_SENS_V: 1.34863
   response: '7E8056298000565'
 - expected_values:
-    TAURUS_AC_P_SENS_V: 2.03809
-  response: '7E8056298000827'
+    TAURUS_AC_P_SENS_V: 1.51465
+  response: 7E805629800060F
 - expected_values:
     TAURUS_AC_P_SENS_V: 2.24316
   response: 7E80562980008F9

@@ -7,11 +7,17 @@ test_cases:
     TAURUS_LAT_ANG: 0
   response: 76805622B0C0007
 - expected_values:
+    TAURUS_LAT_ANG: 0
+  response: 76805622B0C0008
+- expected_values:
     TAURUS_LAT_ANG: -1
   response: 76805622B0CFFF7
 - expected_values:
     TAURUS_LAT_ANG: -1
   response: 76805622B0CFFF9
+- expected_values:
+    TAURUS_LAT_ANG: -1
+  response: 76805622B0CFFFC
 - expected_values:
     TAURUS_LAT_ANG: -1
   response: 76805622B0CFFFE
