@@ -4,6 +4,9 @@ test_cases:
     TAURUS_BATT_SOC: 0
   response: '72E0462402800'
 - expected_values:
+    TAURUS_BATT_SOC: 37.64706
+  response: '72E0462402860'
+- expected_values:
     TAURUS_BATT_SOC: 38.43137
   response: '72E0462402862'
 - expected_values:

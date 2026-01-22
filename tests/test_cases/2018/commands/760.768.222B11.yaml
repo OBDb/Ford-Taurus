@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     TAURUS_LAT_G: -0.6
   response: 76805622B11FFE2
+- expected_values:
+    TAURUS_LAT_G: -0.26
+  response: 76805622B11FFF3
+- expected_values:
+    TAURUS_LAT_G: -0.1
+  response: 76805622B11FFFB
