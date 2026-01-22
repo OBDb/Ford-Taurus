@@ -4,6 +4,12 @@ test_cases:
     TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 0
   response: 7E805621E190000
 - expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 1.00002
+  response: 7E805621E191000
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 1.41384
+  response: 7E805621E19169F
+- expected_values:
     TAURUS_PCM_CMD_TRANS_GEAR_RATIO: 2.87187
   response: 7E805621E192DF3
 - expected_values:
