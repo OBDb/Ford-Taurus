@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_PCM_ENG_OIL_LIFE_REM: 79
   response: 7E80462054B4F
+- expected_values:
+    TAURUS_PCM_ENG_OIL_LIFE_REM: 88
+  response: 7E80462054B58
