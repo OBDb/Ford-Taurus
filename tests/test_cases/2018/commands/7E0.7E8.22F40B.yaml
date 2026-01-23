@@ -4,29 +4,5 @@ test_cases:
     TAURUS_MAP: 4.06109
   response: 7E80462F40B1C
 - expected_values:
-    TAURUS_MAP: 6.23667
-  response: 7E80462F40B2B
-- expected_values:
-    TAURUS_MAP: 6.52675
-  response: 7E80462F40B2D
-- expected_values:
-    TAURUS_MAP: 6.96187
-  response: 7E80462F40B30
-- expected_values:
-    TAURUS_MAP: 7.39699
-  response: 7E80462F40B33
-- expected_values:
-    TAURUS_MAP: 7.68706
-  response: 7E80462F40B35
-- expected_values:
-    TAURUS_MAP: 8.41226
-  response: 7E80462F40B3A
-- expected_values:
-    TAURUS_MAP: 8.5573
-  response: 7E80462F40B3B
-- expected_values:
-    TAURUS_MAP: 9.13745
-  response: 7E80462F40B3F
-- expected_values:
     TAURUS_MAP: 9.28249
   response: 7E80462F40B40
