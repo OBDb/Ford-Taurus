@@ -5,6 +5,9 @@ test_cases:
   response: 7E80562099B0080
 - expected_values:
     TAURUS_AC_STATE: 1
+  response: 7E80562099B0120
+- expected_values:
+    TAURUS_AC_STATE: 1
   response: 7E80562099B0180
 - expected_values:
     TAURUS_AC_STATE: 1
