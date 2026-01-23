@@ -1,6 +1,9 @@
 command_id: 726.72E.224027
 test_cases:
 - expected_values:
+    TAURUS_BATT_AGE: 63
+  response: '72E 05 62 40 27 00 3F '
+- expected_values:
     TAURUS_BATT_AGE: 0
   response: '72E056240270000'
 - expected_values:
