@@ -1,6 +1,9 @@
 command_id: 726.72E.224028
 test_cases:
 - expected_values:
+    TAURUS_BATT_SOC: 38.82353
+  response: '72E 04 62 40 28 63 '
+- expected_values:
     TAURUS_BATT_SOC: 0
   response: '72E0462402800'
 - expected_values:
