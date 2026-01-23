@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TAURUS_IAT_ALT2: 59
   response: 7E80462F40F63
+- expected_values:
+    TAURUS_IAT_ALT2: 61
+  response: 7E80462F40F65

@@ -7,6 +7,9 @@ test_cases:
     TAURUS_AXLE_GEAR_RATIO_MEAS: 1.41333
   response: 7E805621E16169D
 - expected_values:
+    TAURUS_AXLE_GEAR_RATIO_MEAS: 2.87085
+  response: 7E805621E162DEF
+- expected_values:
     TAURUS_AXLE_GEAR_RATIO_MEAS: 2.87207
   response: 7E805621E162DF4
 - expected_values:
