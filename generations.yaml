@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Ford_Taurus"
+
 generations:
   - name: "First Generation"
     start_year: 1986
@@ -16,7 +19,7 @@ generations:
 
   - name: "Fourth Generation"
     start_year: 2000
-    end_year: 2007
+    end_year: 2006
     description: "The fourth-generation Taurus represented a retreat from the oval-dominated design of its predecessor, featuring more conventional styling in response to consumer feedback. The sedan and wagon continued on an updated version of the DN101 platform with revised 3.0L V6 engines. The interior was completely redesigned with a more traditional layout and improved materials. This generation saw the Taurus gradually repositioned downmarket, eventually becoming primarily a fleet vehicle as retail focus shifted to other Ford models. The wagon was discontinued in 2005, and in 2006 Ford announced plans to discontinue the Taurus nameplate entirely, temporarily replacing it with the Ford Five Hundred and Fusion before CEO Alan Mulally reversed this decision."
 
   - name: "Fifth Generation (Former Five Hundred)"
