@@ -1,6 +1,12 @@
 command_id: 7DF.221E1C|f=2013-
 test_cases:
 - expected_values:
+    TAURUS_TOT: 71.5
+  response: "221E1C\n7E8 05 62 1E 1C 04 78 "
+- expected_values:
+    TAURUS_TOT: 71.875
+  response: "221E1C\n7E8 05 62 1E 1C 04 7E "
+- expected_values:
     TAURUS_TOT: 66.6875
   response: |-
     221E1C
