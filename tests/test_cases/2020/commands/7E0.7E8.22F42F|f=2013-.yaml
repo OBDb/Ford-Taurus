@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F42F|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_FLI: 79.21569
+  response: 7E80462F42FCA
+- expected_values:
+    TAURUS_FLI: 79.60784
+  response: 7E80462F42FCB

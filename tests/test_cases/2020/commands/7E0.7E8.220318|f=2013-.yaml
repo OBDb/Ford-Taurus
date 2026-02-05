@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220318|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_VCT_INT_ACT: 0
+  response: '7E8056203180000'
+- expected_values:
+    TAURUS_VCT_INT_ACT: 0.0625
+  response: '7E8056203180001'
