@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F406
+test_cases:
+- expected_values:
+    TAURUS_STFT: 1.5625
+  response: 7E80462F40682
+- expected_values:
+    TAURUS_STFT: 3.90625
+  response: 7E80462F40685
+- expected_values:
+    TAURUS_STFT: 6.25
+  response: 7E80462F40688

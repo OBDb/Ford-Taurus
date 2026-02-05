@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22054D
+test_cases:
+- expected_values:
+    TAURUS_LPFP_SENS_V: 3.48633
+  response: 7E80562054D0DF2
+- expected_values:
+    TAURUS_LPFP_SENS_V: 3.64258
+  response: 7E80562054D0E92
+- expected_values:
+    TAURUS_LPFP_SENS_V: 3.64746
+  response: 7E80562054D0E97

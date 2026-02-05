@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203DC|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_HPFP_DES: 719.38719
+  response: 7E8056203DC01F0
+- expected_values:
+    TAURUS_HPFP_DES: 726.63908
+  response: 7E8056203DC01F5
+- expected_values:
+    TAURUS_HPFP_DES: 2613.58007
+  response: 7E8056203DC070A
