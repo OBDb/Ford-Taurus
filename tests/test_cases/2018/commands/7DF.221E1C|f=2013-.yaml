@@ -26,8 +26,8 @@ test_cases:
     TAURUS_TOT: 55.6875
   response: '7E8 05 62 1E 1C 03 7B '
 - expected_values:
-    TAURUS_TOT: 69.9375
-  response: '7E8 05 62 1E 1C 04 5F '
+    TAURUS_TOT: 73.9375
+  response: '7E8 05 62 1E 1C 04 9F '
 - expected_values:
     TAURUS_TOT: 76
   response: '7E8 05 62 1E 1C 04 C0 '
