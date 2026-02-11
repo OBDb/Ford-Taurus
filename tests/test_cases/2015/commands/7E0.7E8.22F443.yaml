@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    TAURUS_ENG_LOAD_ACT: 25.88235
+  response: 7E80562F4430042

@@ -1,0 +1,5 @@
+command_id: 726.72E.222816|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_TP_RLO: 33.45
+  response: 72E05622816029D

@@ -1,0 +1,5 @@
+command_id: 7DF.221E1C|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_TOT: 85.5625
+  response: 7E805621E1C0559
