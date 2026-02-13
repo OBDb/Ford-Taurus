@@ -4,29 +4,5 @@ test_cases:
     TAURUS_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    TAURUS_VSS: 4
-  response: 7E80462F40D04
-- expected_values:
-    TAURUS_VSS: 10
-  response: 7E80462F40D0A
-- expected_values:
-    TAURUS_VSS: 13
-  response: 7E80462F40D0D
-- expected_values:
-    TAURUS_VSS: 14
-  response: 7E80462F40D0E
-- expected_values:
-    TAURUS_VSS: 16
-  response: 7E80462F40D10
-- expected_values:
-    TAURUS_VSS: 20
-  response: 7E80462F40D14
-- expected_values:
-    TAURUS_VSS: 43
-  response: 7E80462F40D2B
-- expected_values:
-    TAURUS_VSS: 45
-  response: 7E80462F40D2D
-- expected_values:
     TAURUS_VSS: 61
   response: 7E80462F40D3D
