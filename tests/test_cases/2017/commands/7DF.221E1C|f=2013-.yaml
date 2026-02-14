@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TAURUS_TOT: 32.1875
   response: 7E805621E1C0203
+- expected_values:
+    TAURUS_TOT: 71.3125
+  response: 7E805621E1C0475
