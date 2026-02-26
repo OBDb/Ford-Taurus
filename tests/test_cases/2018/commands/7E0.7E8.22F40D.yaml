@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22F40D
 test_cases:
 - expected_values:
+    TAURUS_VSS: 3
+  response: "22F40D\n7E8 04 62 F4 0D 03 "
+- expected_values:
     TAURUS_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    TAURUS_VSS: 61
-  response: 7E80462F40D3D
+    TAURUS_VSS: 87
+  response: 7E80462F40D57
