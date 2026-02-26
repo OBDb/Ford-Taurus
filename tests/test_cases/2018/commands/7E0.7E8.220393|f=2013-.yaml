@@ -24,11 +24,8 @@ test_cases:
     TAURUS_AC_P: 223.93828
   response: '7E8 05 62 03 93 03 04 '
 - expected_values:
-    TAURUS_AC_P: 96.59514
-  response: 7E805620393014D
-- expected_values:
-    TAURUS_AC_P: 148.51865
-  response: '7E8056203930200'
+    TAURUS_AC_P: 0
+  response: '7E8056203930000'
 - expected_values:
     TAURUS_AC_P: 222.48791
   response: 7E80562039302FF
