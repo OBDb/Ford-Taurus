@@ -7,6 +7,9 @@ test_cases:
     TAURUS_TP_FR: 32.4
   response: "222814\n72E 05 62 28 14 02 88 "
 - expected_values:
+    TAURUS_TP_FR: 39.3
+  response: "222814\n72E 05 62 28 14 03 12 "
+- expected_values:
     TAURUS_TP_FR: 31.3
   response: |-
     222814
@@ -30,11 +33,8 @@ test_cases:
     TAURUS_TP_FR: 25.55
   response: 72E0562281401FF
 - expected_values:
-    TAURUS_TP_FR: 25.8
-  response: '72E056228140204'
-- expected_values:
-    TAURUS_TP_FR: 39.05
-  response: 72E05622814030D
+    TAURUS_TP_FR: 38.4
+  response: '72E056228140300'
 - expected_values:
     TAURUS_TP_FR: 36.3
   response: "SEARCHING...\n72E 05 62 28 14 02 D6 "
