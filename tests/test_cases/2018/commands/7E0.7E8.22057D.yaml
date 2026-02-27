@@ -4,5 +4,5 @@ test_cases:
     TAURUS_AAT_ALT: 25
   response: 7E80462057D82
 - expected_values:
-    TAURUS_AAT_ALT: 46
-  response: 7E80462057DAC
+    TAURUS_AAT_ALT: 48
+  response: 7E80462057DB0
