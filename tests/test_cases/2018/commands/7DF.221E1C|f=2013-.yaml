@@ -7,6 +7,9 @@ test_cases:
     TAURUS_TOT: 77.5
   response: "221E1C\n7E8 05 62 1E 1C 04 D8 "
 - expected_values:
+    TAURUS_TOT: 87.25
+  response: "221E1C\n7E8 05 62 1E 1C 05 74 "
+- expected_values:
     TAURUS_TOT: 66.6875
   response: |-
     221E1C
