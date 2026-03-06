@@ -7,6 +7,9 @@ test_cases:
     TAURUS_BATT_AGE: 0
   response: '72E056240270000'
 - expected_values:
+    TAURUS_BATT_AGE: 31
+  response: 72E05624027001F
+- expected_values:
     TAURUS_BATT_AGE: 43
   response: 72E05624027002B
 - expected_values:
