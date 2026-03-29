@@ -4,11 +4,11 @@ test_cases:
     TAURUS_PCM_CYL_HEAD_T_CORR: 30.25
   response: '7E8056203340790'
 - expected_values:
-    TAURUS_PCM_CYL_HEAD_T_CORR: 84.03125
-  response: '7E8056203341502'
-- expected_values:
     TAURUS_PCM_CYL_HEAD_T_CORR: 87.98438
   response: 7E80562033415FF
 - expected_values:
-    TAURUS_PCM_CYL_HEAD_T_CORR: 88.04688
-  response: '7E8056203341603'
+    TAURUS_PCM_CYL_HEAD_T_CORR: 88
+  response: '7E8056203341600'
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 104.26562
+  response: 7E8056203341A11
