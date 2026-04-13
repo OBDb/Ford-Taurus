@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220334
 test_cases:
 - expected_values:
-    TAURUS_PCM_CYL_HEAD_T_CORR: 30.25
-  response: '7E8056203340790'
+    TAURUS_PCM_CYL_HEAD_T_CORR: 27.3125
+  response: 7E80562033406D4
 - expected_values:
-    TAURUS_PCM_CYL_HEAD_T_CORR: 87.98438
-  response: 7E80562033415FF
+    TAURUS_PCM_CYL_HEAD_T_CORR: 59.98438
+  response: 7E8056203340EFF
 - expected_values:
     TAURUS_PCM_CYL_HEAD_T_CORR: 88
   response: '7E8056203341600'
