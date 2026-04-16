@@ -4,5 +4,5 @@ test_cases:
     TAURUS_TP_RRO: 28.45
   response: '72E056228150239'
 - expected_values:
-    TAURUS_TP_RRO: 34.6
-  response: 72E0562281502B4
+    TAURUS_TP_RRO: 37.7
+  response: 72E0562281502F2
