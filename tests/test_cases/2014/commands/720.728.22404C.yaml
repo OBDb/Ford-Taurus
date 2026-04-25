@@ -13,5 +13,5 @@ test_cases:
     TAURUS_ODO: 276940.8
   response: 7280662404C2A4200
 - expected_values:
-    TAURUS_ODO: 281535.1
-  response: 7280662404C2AF577
+    TAURUS_ODO: 281574.5
+  response: 7280662404C2AF701
