@@ -2,6 +2,11 @@ command_id: 7E0.7E8.22099B
 test_cases:
 - expected_values:
     TAURUS_AC_STATE: 0
+  response: |-
+    22099B
+    7E80562099B0000
+- expected_values:
+    TAURUS_AC_STATE: 0
   response: 7E80562099B0000
 - expected_values:
     TAURUS_AC_STATE: 0
