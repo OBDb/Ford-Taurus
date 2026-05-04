@@ -15,6 +15,11 @@ test_cases:
     221E1C
     7E805621E1C042B
 - expected_values:
+    TAURUS_TOT: 79.5625
+  response: |-
+    221E1C
+    7E805621E1C04F9
+- expected_values:
     TAURUS_TOT: 64.625
   response: "221E1C1\n7E8 05 62 1E 1C 04 0A "
 - expected_values:
