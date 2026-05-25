@@ -7,5 +7,5 @@ test_cases:
     TAURUS_MIL_DIST: 218
   response: 7E80562F42100DA
 - expected_values:
-    TAURUS_MIL_DIST: 713
-  response: 7E80562F42102C9
+    TAURUS_MIL_DIST: 1382
+  response: 7E80562F4210566
