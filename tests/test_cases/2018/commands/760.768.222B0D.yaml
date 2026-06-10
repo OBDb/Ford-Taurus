@@ -23,4 +23,7 @@ test_cases:
   response: 76805622B0D0031
 - expected_values:
     TAURUS_BRK_FL_P: 0
+  response: 76805622B0D003A
+- expected_values:
+    TAURUS_BRK_FL_P: 0
   response: 76805622B0D00AA

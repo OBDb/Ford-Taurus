@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TAURUS_PCM_MISF_ACCEL_CYL6_NORM: -0.07812
   response: 7E804620398FB
+- expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL6_NORM: -0.03125
+  response: 7E804620398FE
