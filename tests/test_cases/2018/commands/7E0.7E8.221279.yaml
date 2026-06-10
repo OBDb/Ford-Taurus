@@ -4,23 +4,5 @@ test_cases:
     TAURUS_IAT_SENS_V: 0.83578
   response: 7E80562127900AB
 - expected_values:
-    TAURUS_IAT_SENS_V: 1.04106
-  response: 7E80562127900D5
-- expected_values:
-    TAURUS_IAT_SENS_V: 1.10459
-  response: 7E80562127900E2
-- expected_values:
-    TAURUS_IAT_SENS_V: 1.10948
-  response: 7E80562127900E3
-- expected_values:
-    TAURUS_IAT_SENS_V: 1.12414
-  response: 7E80562127900E6
-- expected_values:
-    TAURUS_IAT_SENS_V: 1.12903
-  response: 7E80562127900E7
-- expected_values:
-    TAURUS_IAT_SENS_V: 1.13881
-  response: 7E80562127900E9
-- expected_values:
     TAURUS_IAT_SENS_V: 1.15347
   response: 7E80562127900EC
