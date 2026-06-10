@@ -22,6 +22,9 @@ test_cases:
     TAURUS_KS1_RAW: 88
   response: '7E8056204030058'
 - expected_values:
+    TAURUS_KS1_RAW: 90
+  response: 7E805620403005A
+- expected_values:
     TAURUS_KS1_RAW: 117
   response: '7E8056204030075'
 - expected_values:
