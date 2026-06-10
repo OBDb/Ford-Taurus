@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TAURUS_LTFT: -4.6875
   response: 7E80462F4077A
+- expected_values:
+    TAURUS_LTFT: -3.90625
+  response: 7E80462F4077B

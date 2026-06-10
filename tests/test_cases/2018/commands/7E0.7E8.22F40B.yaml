@@ -4,5 +4,5 @@ test_cases:
     TAURUS_MAP: 4.06109
   response: 7E80462F40B1C
 - expected_values:
-    TAURUS_MAP: 9.28249
-  response: 7E80462F40B40
+    TAURUS_MAP: 9.86265
+  response: 7E80462F40B44
