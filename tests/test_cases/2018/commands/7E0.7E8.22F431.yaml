@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAURUS_DIST_DTC_CLR: 1084
   response: 7E80562F431043C
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 1088
+  response: 7E80562F4310440
