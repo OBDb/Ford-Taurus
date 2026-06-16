@@ -10,6 +10,9 @@ test_cases:
     TAURUS_CL: 0.96866
   response: '7E8 05 62 03 0F 7B FD '
 - expected_values:
+    TAURUS_CL: 0.9805
+  response: '7E8 05 62 03 0F 7D 81 '
+- expected_values:
     TAURUS_CL: 0.98471
   response: '7E8 05 62 03 0F 7E 0B '
 - expected_values:
