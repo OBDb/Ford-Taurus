@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     TAURUS_BATT_AGE: 62
   response: 72E05624027003E
+- expected_values:
+    TAURUS_BATT_AGE: 63
+  response: 72E05624027003F
