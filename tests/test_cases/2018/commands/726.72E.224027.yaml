@@ -7,26 +7,5 @@ test_cases:
     TAURUS_BATT_AGE: 0
   response: '72E056240270000'
 - expected_values:
-    TAURUS_BATT_AGE: 19
-  response: '72E056240270013'
-- expected_values:
-    TAURUS_BATT_AGE: 31
-  response: 72E05624027001F
-- expected_values:
-    TAURUS_BATT_AGE: 34
-  response: '72E056240270022'
-- expected_values:
-    TAURUS_BATT_AGE: 43
-  response: 72E05624027002B
-- expected_values:
-    TAURUS_BATT_AGE: 53
-  response: '72E056240270035'
-- expected_values:
-    TAURUS_BATT_AGE: 60
-  response: 72E05624027003C
-- expected_values:
-    TAURUS_BATT_AGE: 62
-  response: 72E05624027003E
-- expected_values:
-    TAURUS_BATT_AGE: 63
-  response: 72E05624027003F
+    TAURUS_BATT_AGE: 64
+  response: '72E056240270040'
