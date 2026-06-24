@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22033E|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_TIP_ABS: 12.62322
+  response: 7E80562033E2C91
