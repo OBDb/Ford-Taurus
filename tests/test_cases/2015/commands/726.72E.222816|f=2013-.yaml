@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_TP_RLO: 33.45
   response: 72E05622816029D
+- expected_values:
+    TAURUS_TP_RLO: 40.55
+  response: 72E05622816032B

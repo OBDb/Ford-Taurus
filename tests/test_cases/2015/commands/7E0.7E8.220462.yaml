@@ -6,3 +6,15 @@ test_cases:
 - expected_values:
     TAURUS_WGDC: 0.00916
   response: '7E8056204620003'
+- expected_values:
+    TAURUS_WGDC: 0.15564
+  response: '7E8056204620033'
+- expected_values:
+    TAURUS_WGDC: 0.18616
+  response: 7E805620462003D
+- expected_values:
+    TAURUS_WGDC: 0.60425
+  response: 7E80562046200C6
+- expected_values:
+    TAURUS_WGDC: 47.80579
+  response: 7E8056204623D31
