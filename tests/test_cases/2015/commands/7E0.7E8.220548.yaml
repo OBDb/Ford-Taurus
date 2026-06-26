@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.220548
 test_cases:
 - expected_values:
-    TAURUS_LPFP_ACT: 76.94428
-  response: '7E8056205480425'
+    TAURUS_LPFP_ACT: 75.05874
+  response: 7E805620548040B
 - expected_values:
-    TAURUS_LPFP_ACT: 77.3794
-  response: 7E805620548042B
-- expected_values:
-    TAURUS_LPFP_ACT: 77.66948
-  response: 7E805620548042F
-- expected_values:
-    TAURUS_LPFP_ACT: 78.1046
-  response: '7E8056205480435'
-- expected_values:
-    TAURUS_LPFP_ACT: 79.26493
-  response: '7E8056205480445'
+    TAURUS_LPFP_ACT: 83.47112
+  response: 7E805620548047F

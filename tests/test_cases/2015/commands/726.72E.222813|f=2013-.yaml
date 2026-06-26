@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     TAURUS_TP_FL: 33.95
   response: 72E0562281302A7
+- expected_values:
+    TAURUS_TP_FL: 39.05
+  response: 72E05622813030D
+- expected_values:
+    TAURUS_TP_FL: 39.15
+  response: 72E05622813030F
+- expected_values:
+    TAURUS_TP_FL: 39.55
+  response: '72E056228130317'
+- expected_values:
+    TAURUS_TP_FL: 39.9
+  response: 72E05622813031E
+- expected_values:
+    TAURUS_TP_FL: 40.55
+  response: 72E05622813032B
+- expected_values:
+    TAURUS_TP_FL: 40.65
+  response: 72E05622813032D
+- expected_values:
+    TAURUS_TP_FL: 40.9
+  response: '72E056228130332'
+- expected_values:
+    TAURUS_TP_FL: 41
+  response: '72E056228130334'
+- expected_values:
+    TAURUS_TP_FL: 41.25
+  response: '72E056228130339'
