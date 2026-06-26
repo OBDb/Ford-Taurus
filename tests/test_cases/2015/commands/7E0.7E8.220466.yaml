@@ -1,8 +1,14 @@
 command_id: 7E0.7E8.220466
 test_cases:
 - expected_values:
-    TAURUS_TIP_DES_ABS: 12.31452
-  response: 7E8056204662B7A
+    TAURUS_TIP_DES_ABS: 12.24039
+  response: 7E8056204662B37
 - expected_values:
-    TAURUS_TIP_DES_ABS: 12.33776
-  response: 7E8056204662B8F
+    TAURUS_TIP_DES_ABS: 12.45615
+  response: 7E8056204662BFA
+- expected_values:
+    TAURUS_TIP_DES_ABS: 12.47053
+  response: 7E8056204662C07
+- expected_values:
+    TAURUS_TIP_DES_ABS: 20.72336
+  response: 7E805620466492A
