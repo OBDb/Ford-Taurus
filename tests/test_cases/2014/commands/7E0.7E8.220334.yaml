@@ -7,8 +7,8 @@ test_cases:
     TAURUS_PCM_CYL_HEAD_T_CORR: 55.98438
   response: 7E8056203340DFF
 - expected_values:
-    TAURUS_PCM_CYL_HEAD_T_CORR: 88
-  response: '7E8056203341600'
+    TAURUS_PCM_CYL_HEAD_T_CORR: 84
+  response: '7E8056203341500'
 - expected_values:
     TAURUS_PCM_CYL_HEAD_T_CORR: 104
   response: 7E8056203341A00
