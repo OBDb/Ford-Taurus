@@ -4,11 +4,14 @@ test_cases:
     TAURUS_ECT: 88.0625
   response: "22038F1\n7E8 05 62 03 8F 16 04 "
 - expected_values:
+    TAURUS_ECT: 69.0625
+  response: '7E8 05 62 03 8F 11 44 '
+- expected_values:
     TAURUS_ECT: 84.59375
   response: '7E8 05 62 03 8F 15 26 '
 - expected_values:
-    TAURUS_ECT: 85.57812
-  response: '7E8 05 62 03 8F 15 65 '
+    TAURUS_ECT: 86.25
+  response: '7E8 05 62 03 8F 15 90 '
 - expected_values:
     TAURUS_ECT: 86.98438
   response: '7E8 05 62 03 8F 15 BF '
@@ -22,14 +25,17 @@ test_cases:
     TAURUS_ECT: 37.95312
   response: 7E80562038F097D
 - expected_values:
+    TAURUS_ECT: 44
+  response: 7E80562038F0B00
+- expected_values:
     TAURUS_ECT: 83.98438
   response: 7E80562038F14FF
 - expected_values:
-    TAURUS_ECT: 88
-  response: 7E80562038F1600
-- expected_values:
     TAURUS_ECT: 112.34375
   response: 7E80562038F1C16
+- expected_values:
+    TAURUS_ECT: 65.92188
+  response: "SEARCHING...\n7E8 05 62 03 8F 10 7B "
 - expected_values:
     TAURUS_ECT: 87.14062
   response: "SEARCHING...\n7E8 05 62 03 8F 15 C9 "
