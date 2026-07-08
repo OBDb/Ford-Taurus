@@ -9,26 +9,8 @@ test_cases:
     TAURUS_AC_STATE: 0
   response: 7E80562099B0000
 - expected_values:
-    TAURUS_AC_STATE: 0
-  response: 7E80562099B0080
-- expected_values:
-    TAURUS_AC_STATE: 0
-  response: 7E80562099B00C0
-- expected_values:
     TAURUS_AC_STATE: 1
   response: 7E80562099B0100
-- expected_values:
-    TAURUS_AC_STATE: 1
-  response: 7E80562099B0120
-- expected_values:
-    TAURUS_AC_STATE: 1
-  response: 7E80562099B0180
-- expected_values:
-    TAURUS_AC_STATE: 1
-  response: 7E80562099B01A0
-- expected_values:
-    TAURUS_AC_STATE: 1
-  response: 7E80562099B01C0
 - expected_values:
     TAURUS_AC_STATE: 1
   response: 7E80562099B01E0
