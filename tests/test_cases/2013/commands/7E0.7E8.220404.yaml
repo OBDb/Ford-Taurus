@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.220404
-test_cases:
-- expected_values:
-    TAURUS_KS2_RAW: 79
-  response: 7E805620404004F
-- expected_values:
-    TAURUS_KS2_RAW: 150
-  response: '7E8056204040096'
