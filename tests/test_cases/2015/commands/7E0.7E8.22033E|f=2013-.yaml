@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22033E|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_TIP_ABS: 12.52696
+  response: 7E80562033E2C3A
+- expected_values:
+    TAURUS_TIP_ABS: 12.62322
+  response: 7E80562033E2C91
+- expected_values:
+    TAURUS_TIP_ABS: 12.6719
+  response: 7E80562033E2CBD
+- expected_values:
+    TAURUS_TIP_ABS: 12.76816
+  response: 7E80562033E2D14
+- expected_values:
+    TAURUS_TIP_ABS: 12.81684
+  response: 7E80562033E2D40
+- expected_values:
+    TAURUS_TIP_ABS: 14.99318
+  response: 7E80562033E34EF
+- expected_values:
+    TAURUS_TIP_ABS: 24.08469
+  response: 7E80562033E5508

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203BA|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_AAT_V: 2.8348
+  response: 7E8056203BA0244
+- expected_values:
+    TAURUS_AAT_V: 2.84946
+  response: 7E8056203BA0247
+- expected_values:
+    TAURUS_AAT_V: 2.87879
+  response: 7E8056203BA024D

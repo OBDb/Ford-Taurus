@@ -1,0 +1,14 @@
+command_id: 760.768.222B11
+test_cases:
+- expected_values:
+    TAURUS_LAT_G: 0.32
+  response: 76805622B110010
+- expected_values:
+    TAURUS_LAT_G: 0.38
+  response: 76805622B110013
+- expected_values:
+    TAURUS_LAT_G: 0.44
+  response: 76805622B110016
+- expected_values:
+    TAURUS_LAT_G: 0.48
+  response: 76805622B110018
