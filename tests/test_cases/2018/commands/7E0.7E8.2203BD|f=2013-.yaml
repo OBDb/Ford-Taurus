@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2203BD|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_CL_LC: 0.00891
+  response: "2203BD1\n7E8 05 62 03 BD 00 49 "
+- expected_values:
+    TAURUS_CL_LC: -0.00647
+  response: "2203BD1\n7E8 05 62 03 BD FF CB "
+- expected_values:
+    TAURUS_CL_LC: -0.00342
+  response: "2203BD1\n7E8 05 62 03 BD FF E4 "
+- expected_values:
+    TAURUS_CL_LC: 0
+  response: '7E8 05 62 03 BD 00 00 '
+- expected_values:
+    TAURUS_CL_LC: 0.0116
+  response: '7E8 05 62 03 BD 00 5F '
+- expected_values:
+    TAURUS_CL_LC: -0.00427
+  response: '7E8 05 62 03 BD FF DD '
+- expected_values:
+    TAURUS_CL_LC: 0
+  response: 7E8056203BD0000
+- expected_values:
+    TAURUS_CL_LC: -0.01428
+  response: 7E8056203BDFF8B
+- expected_values:
+    TAURUS_CL_LC: -0.00012
+  response: 7E8056203BDFFFF
