@@ -1,0 +1,31 @@
+command_id: 7E0.7E8.220338|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0.19531
+  response: "2203381\n7E8 05 62 03 38 00 64 "
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0.15039
+  response: '7E8 05 62 03 38 00 4D '
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: -0.42578
+  response: '7E8 05 62 03 38 FF 26 '
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: -0.2207
+  response: '7E8 05 62 03 38 FF 8F '
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: -0.15039
+  response: '7E8 05 62 03 38 FF B3 '
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0
+  response: '7E8056203380000'
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 0.49805
+  response: 7E80562033800FF
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: -0.42969
+  response: 7E805620338FF24
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: -0.08008
+  response: |-
+    SEARCHING...
+    7E805620338FFD7

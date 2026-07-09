@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220466
+test_cases:
+- expected_values:
+    TAURUS_TIP_DES_ABS: 14.45988
+  response: 7E805620466330D
