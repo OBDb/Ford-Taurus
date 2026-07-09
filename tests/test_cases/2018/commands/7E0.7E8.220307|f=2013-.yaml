@@ -1,0 +1,35 @@
+command_id: 7E0.7E8.220307|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.14392
+  response: "2203071\n7E8 05 62 03 07 30 D3 "
+- expected_values:
+    TAURUS_LPFP_DUTY: 39.00146
+  response: "2203071\n7E8 05 62 03 07 31 EC "
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.82751
+  response: '7E8 05 62 03 07 31 B3 '
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.87024
+  response: '7E8 05 62 03 07 31 C1 '
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.92822
+  response: '7E8 05 62 03 07 31 D4 '
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.96179
+  response: '7E8 05 62 03 07 31 DF '
+- expected_values:
+    TAURUS_LPFP_DUTY: 39.12659
+  response: '7E8 05 62 03 07 32 15 '
+- expected_values:
+    TAURUS_LPFP_DUTY: 35.2356
+  response: 7E8056203072D1A
+- expected_values:
+    TAURUS_LPFP_DUTY: 37.5
+  response: '7E8056203073000'
+- expected_values:
+    TAURUS_LPFP_DUTY: 38.2782
+  response: 7E80562030730FF
+- expected_values:
+    TAURUS_LPFP_DUTY: 75
+  response: '7E8056203076000'

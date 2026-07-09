@@ -1,0 +1,31 @@
+command_id: 7E0.7E8.220318|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4086.1875
+  response: "2203181\n7E8 05 62 03 18 FF 63 "
+- expected_values:
+    TAURUS_VCT_INT_ACT: 0.375
+  response: |-
+    2203181
+    7E8056203180006
+- expected_values:
+    TAURUS_VCT_INT_ACT: 0
+  response: '7E8 05 62 03 18 00 00 '
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4085.5625
+  response: '7E8 05 62 03 18 FF 59 '
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4093.9375
+  response: '7E8 05 62 03 18 FF DF '
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4095.4375
+  response: '7E8 05 62 03 18 FF F7 '
+- expected_values:
+    TAURUS_VCT_INT_ACT: 0
+  response: '7E8056203180000'
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4079.9375
+  response: 7E805620318FEFF
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4080
+  response: 7E805620318FF00

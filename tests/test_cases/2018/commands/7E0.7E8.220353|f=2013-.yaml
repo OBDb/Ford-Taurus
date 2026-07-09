@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.220353|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_BARO: 14.39339
+  response: "2203531\n7E8 05 62 03 53 01 8D "
+- expected_values:
+    TAURUS_BARO: 14.21211
+  response: '7E8 05 62 03 53 01 88 '
+- expected_values:
+    TAURUS_BARO: 14.35713
+  response: '7E8 05 62 03 53 01 8C '
+- expected_values:
+    TAURUS_BARO: 13.08819
+  response: '7E8056203530169'
+- expected_values:
+    TAURUS_BARO: 14.53841
+  response: '7E8056203530191'
+- expected_values:
+    TAURUS_BARO: 14.21211
+  response: |-
+    SEARCHING...
+    7E8056203530188
