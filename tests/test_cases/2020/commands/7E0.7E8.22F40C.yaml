@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    TAURUS_RPM: 910.75
+  response: 7E80562F40C0E3B
+- expected_values:
+    TAURUS_RPM: 914.5
+  response: 7E80562F40C0E4A
+- expected_values:
+    TAURUS_RPM: 988
+  response: 7E80562F40C0F70

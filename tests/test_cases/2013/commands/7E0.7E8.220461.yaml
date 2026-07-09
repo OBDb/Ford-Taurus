@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220461
+test_cases:
+- expected_values:
+    TAURUS_CAT: -16.625
+  response: 7E80562046105D8
+- expected_values:
+    TAURUS_CAT: -16.0625
+  response: 7E80562046105FC
+- expected_values:
+    TAURUS_CAT: -7.92188
+  response: '7E8056204610805'
+- expected_values:
+    TAURUS_CAT: 0.82812
+  response: 7E8056204610A35

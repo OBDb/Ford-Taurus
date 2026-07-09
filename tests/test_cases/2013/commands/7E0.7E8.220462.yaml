@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220462
+test_cases:
+- expected_values:
+    TAURUS_WGDC: 0
+  response: '7E8056204620000'
+- expected_values:
+    TAURUS_WGDC: 19.52515
+  response: 7E80562046218FE
+- expected_values:
+    TAURUS_WGDC: 28.54309
+  response: '7E8056204622489'

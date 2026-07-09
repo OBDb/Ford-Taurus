@@ -1,0 +1,20 @@
+command_id: 720.728.22404C
+test_cases:
+- expected_values:
+    TAURUS_ODO: 281497.4
+  response: '728 06 62 40 4C 2A F3 FE '
+- expected_values:
+    TAURUS_ODO: 276882.8
+  response: 7280662404C2A3FBC
+- expected_values:
+    TAURUS_ODO: 276889.5
+  response: 7280662404C2A3FFF
+- expected_values:
+    TAURUS_ODO: 276940.8
+  response: 7280662404C2A4200
+- expected_values:
+    TAURUS_ODO: 281779.6
+  response: 7280662404C2AFF04
+- expected_values:
+    TAURUS_ODO: 281804.8
+  response: 7280662404C2B0000
