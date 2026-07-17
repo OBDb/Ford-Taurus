@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221E16
 test_cases:
 - expected_values:
-    TAURUS_AXLE_GEAR_RATIO_MEAS: 0.74194
-  response: 7E805621E160BDF
+    TAURUS_AXLE_GEAR_RATIO_MEAS: 0.7417
+  response: 7E805621E160BDE
 - expected_values:
     TAURUS_AXLE_GEAR_RATIO_MEAS: 0.99927
   response: 7E805621E160FFD
