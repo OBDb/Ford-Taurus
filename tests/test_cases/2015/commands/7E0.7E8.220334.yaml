@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_PCM_CYL_HEAD_T_CORR: 94.28125
   response: '7E8056203341792'
+- expected_values:
+    TAURUS_PCM_CYL_HEAD_T_CORR: 100.26562
+  response: '7E8056203341911'

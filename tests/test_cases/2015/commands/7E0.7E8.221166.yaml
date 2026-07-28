@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_EVAP_PURGE_CMD: 21.88721
   response: 7E8056211661C04
+- expected_values:
+    TAURUS_EVAP_PURGE_CMD: 87.61292
+  response: '7E8056211667025'

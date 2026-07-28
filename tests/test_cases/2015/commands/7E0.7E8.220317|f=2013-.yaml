@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
+- expected_values:
+    TAURUS_VCT_EXH_DUTY: 79.99878
+  response: '7E8056203176666'
