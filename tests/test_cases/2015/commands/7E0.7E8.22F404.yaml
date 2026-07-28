@@ -4,5 +4,8 @@ test_cases:
     TAURUS_ENG_LOAD_PCT: 50.58824
   response: 7E80462F40481
 - expected_values:
+    TAURUS_ENG_LOAD_PCT: 87.84314
+  response: 7E80462F404E0
+- expected_values:
     TAURUS_ENG_LOAD_PCT: 90.58824
   response: 7E80462F404E7

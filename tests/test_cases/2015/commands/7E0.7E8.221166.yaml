@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221166
 test_cases:
 - expected_values:
+    TAURUS_EVAP_PURGE_CMD: 0
+  response: '7E8056211660000'
+- expected_values:
     TAURUS_EVAP_PURGE_CMD: 21.88721
   response: 7E8056211661C04
 - expected_values:

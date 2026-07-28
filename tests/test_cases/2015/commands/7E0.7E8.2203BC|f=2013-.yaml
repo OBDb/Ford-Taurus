@@ -4,5 +4,8 @@ test_cases:
     TAURUS_VCT_INT_DES: 0
   response: 7E8056203BC0000
 - expected_values:
+    TAURUS_VCT_INT_DES: -38.4375
+  response: 7E8056203BCFD99
+- expected_values:
     TAURUS_VCT_INT_DES: -10
   response: 7E8056203BCFF60

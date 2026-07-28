@@ -5,4 +5,7 @@ test_cases:
   response: 7E80562038E0A02
 - expected_values:
     TAURUS_EVAP_V: 5
+  response: 7E80562038E0A98
+- expected_values:
+    TAURUS_EVAP_V: 5
   response: 7E80562038E0AC0
