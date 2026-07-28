@@ -7,6 +7,9 @@ test_cases:
     TAURUS_BATT_TEMP: 23
   response: 72E046240293F
 - expected_values:
+    TAURUS_BATT_TEMP: 65
+  response: '72E0462402969'
+- expected_values:
     TAURUS_BATT_TEMP: 74
   response: '72E0462402972'
 - expected_values:
