@@ -4,24 +4,6 @@ test_cases:
     TAURUS_DIST_DTC_CLR: 0
   response: 7E80562F4310000
 - expected_values:
-    TAURUS_DIST_DTC_CLR: 368
-  response: 7E80562F4310170
-- expected_values:
-    TAURUS_DIST_DTC_CLR: 369
-  response: 7E80562F4310171
-- expected_values:
-    TAURUS_DIST_DTC_CLR: 371
-  response: 7E80562F4310173
-- expected_values:
-    TAURUS_DIST_DTC_CLR: 373
-  response: 7E80562F4310175
-- expected_values:
-    TAURUS_DIST_DTC_CLR: 375
-  response: 7E80562F4310177
-- expected_values:
-    TAURUS_DIST_DTC_CLR: 376
-  response: 7E80562F4310178
-- expected_values:
     TAURUS_DIST_DTC_CLR: 377
   response: 7E80562F4310179
 - expected_values:

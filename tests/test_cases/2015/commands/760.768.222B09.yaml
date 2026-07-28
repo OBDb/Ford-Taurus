@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_RL_VSS: 0
   response: 76804622B0900
+- expected_values:
+    TAURUS_RL_VSS: 90
+  response: 76804622B095A

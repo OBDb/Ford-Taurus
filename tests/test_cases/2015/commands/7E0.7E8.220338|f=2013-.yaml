@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_ETC_TRIM_LRN: 0.51758
   response: '7E8056203380109'
+- expected_values:
+    TAURUS_ETC_TRIM_LRN: 1.84961
+  response: 7E80562033803B3

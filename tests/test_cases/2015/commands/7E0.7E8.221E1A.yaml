@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 392
   response: 7E805621E1A00C4
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 700
+  response: 7E805621E1A015E
