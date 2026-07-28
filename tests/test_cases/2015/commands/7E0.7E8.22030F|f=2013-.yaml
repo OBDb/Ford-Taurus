@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22030F|f=2013-
 test_cases:
 - expected_values:
+    TAURUS_CL: 0.98264
+  response: 7E80562030F7DC7
+- expected_values:
     TAURUS_CL: 0.99106
   response: 7E80562030F7EDB
 - expected_values:

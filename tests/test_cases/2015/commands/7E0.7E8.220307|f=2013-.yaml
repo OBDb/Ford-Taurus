@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_LPFP_DUTY: 37.8479
   response: '7E8056203073072'
+- expected_values:
+    TAURUS_LPFP_DUTY: 39.1449
+  response: 7E805620307321B

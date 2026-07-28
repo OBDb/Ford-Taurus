@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_ERT: 129
   response: '7E80462112681'
+- expected_values:
+    TAURUS_ERT: 255
+  response: 7E804621126FF
