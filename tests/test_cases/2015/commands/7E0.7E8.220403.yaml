@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_KS1_RAW: 86
   response: '7E8056204030056'
+- expected_values:
+    TAURUS_KS1_RAW: 368
+  response: '7E8056204030170'
