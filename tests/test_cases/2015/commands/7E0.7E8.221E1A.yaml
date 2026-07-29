@@ -4,5 +4,23 @@ test_cases:
     TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 392
   response: 7E805621E1A00C4
 - expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 398
+  response: 7E805621E1A00C7
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 544
+  response: 7E805621E1A0110
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 638
+  response: 7E805621E1A013F
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 652
+  response: 7E805621E1A0146
+- expected_values:
     TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 700
   response: 7E805621E1A015E
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 742
+  response: 7E805621E1A0173
+- expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 790
+  response: 7E805621E1A018B
