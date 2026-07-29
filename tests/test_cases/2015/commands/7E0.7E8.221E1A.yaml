@@ -10,6 +10,9 @@ test_cases:
     TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 544
   response: 7E805621E1A0110
 - expected_values:
+    TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 580
+  response: 7E805621E1A0122
+- expected_values:
     TAURUS_PCM_CMD_TRANS_MAIN_LINE_P: 638
   response: 7E805621E1A013F
 - expected_values:
