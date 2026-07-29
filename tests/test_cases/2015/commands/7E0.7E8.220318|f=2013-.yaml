@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAURUS_VCT_INT_ACT: 4095.75
   response: 7E805620318FFFC
+- expected_values:
+    TAURUS_VCT_INT_ACT: 4095.9375
+  response: 7E805620318FFFF

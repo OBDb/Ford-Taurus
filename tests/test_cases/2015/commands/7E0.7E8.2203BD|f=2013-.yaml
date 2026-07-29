@@ -7,5 +7,8 @@ test_cases:
     TAURUS_CL_LC: 0.01636
   response: 7E8056203BD0086
 - expected_values:
+    TAURUS_CL_LC: -0.0094
+  response: 7E8056203BDFFB3
+- expected_values:
     TAURUS_CL_LC: -0.00928
   response: 7E8056203BDFFB4

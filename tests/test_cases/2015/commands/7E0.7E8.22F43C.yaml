@@ -4,6 +4,9 @@ test_cases:
     TAURUS_CAT_TEMP: 482.7
   response: 7E80562F43C146B
 - expected_values:
+    TAURUS_CAT_TEMP: 509.6
+  response: 7E80562F43C1578
+- expected_values:
     TAURUS_CAT_TEMP: 714.9
   response: 7E80562F43C1D7D
 - expected_values:
