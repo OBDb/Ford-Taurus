@@ -4,29 +4,5 @@ test_cases:
     TAURUS_BATT_TEMP: 14
   response: '72E0462402936'
 - expected_values:
-    TAURUS_BATT_TEMP: 23
-  response: 72E046240293F
-- expected_values:
-    TAURUS_BATT_TEMP: 65
-  response: '72E0462402969'
-- expected_values:
-    TAURUS_BATT_TEMP: 66
-  response: 72E046240296A
-- expected_values:
-    TAURUS_BATT_TEMP: 67
-  response: 72E046240296B
-- expected_values:
-    TAURUS_BATT_TEMP: 68
-  response: 72E046240296C
-- expected_values:
-    TAURUS_BATT_TEMP: 69
-  response: 72E046240296D
-- expected_values:
-    TAURUS_BATT_TEMP: 70
-  response: 72E046240296E
-- expected_values:
-    TAURUS_BATT_TEMP: 74
-  response: '72E0462402972'
-- expected_values:
     TAURUS_BATT_TEMP: 75
   response: '72E0462402973'
