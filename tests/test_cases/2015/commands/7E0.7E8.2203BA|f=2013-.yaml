@@ -7,6 +7,9 @@ test_cases:
     TAURUS_AAT_V: 1.88172
   response: 7E8056203BA0181
 - expected_values:
+    TAURUS_AAT_V: 1.98436
+  response: 7E8056203BA0196
+- expected_values:
     TAURUS_AAT_V: 2.1261
   response: 7E8056203BA01B3
 - expected_values:
