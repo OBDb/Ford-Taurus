@@ -4,6 +4,9 @@ test_cases:
     TAURUS_RPM: 606.5
   response: 7E80562F40C097A
 - expected_values:
+    TAURUS_RPM: 1139
+  response: 7E80562F40C11CC
+- expected_values:
     TAURUS_RPM: 1720.5
   response: 7E80562F40C1AE2
 - expected_values:

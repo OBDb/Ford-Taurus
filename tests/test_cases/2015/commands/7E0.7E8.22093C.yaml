@@ -4,5 +4,8 @@ test_cases:
     TAURUS_ETC_ANG_ACT: 3.05859
   response: 7E80562093C061E
 - expected_values:
+    TAURUS_ETC_ANG_ACT: 4.48047
+  response: 7E80562093C08F6
+- expected_values:
     TAURUS_ETC_ANG_ACT: 16.21484
   response: 7E80562093C206E

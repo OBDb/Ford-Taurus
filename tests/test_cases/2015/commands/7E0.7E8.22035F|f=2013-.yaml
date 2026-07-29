@@ -4,5 +4,8 @@ test_cases:
     TAURUS_RO2_V: 0.75586
   response: 7E80562035F0306
 - expected_values:
+    TAURUS_RO2_V: 0.80273
+  response: 7E80562035F0336
+- expected_values:
     TAURUS_RO2_V: 0.91113
   response: 7E80562035F03A5
