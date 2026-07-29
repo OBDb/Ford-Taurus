@@ -13,5 +13,8 @@ test_cases:
     TAURUS_BARO: 14.42964
   response: 7E805620353018E
 - expected_values:
+    TAURUS_BARO: 14.57466
+  response: '7E8056203530192'
+- expected_values:
     TAURUS_BARO: 14.79219
   response: '7E8056203530198'

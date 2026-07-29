@@ -11,4 +11,7 @@ test_cases:
   response: 76805622B0C0008
 - expected_values:
     TAURUS_LAT_ANG: -1
+  response: 76805622B0CFFFA
+- expected_values:
+    TAURUS_LAT_ANG: -1
   response: 76805622B0CFFFE

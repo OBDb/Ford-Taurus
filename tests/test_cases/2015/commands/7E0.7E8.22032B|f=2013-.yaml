@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAURUS_ACC_POS: 20
   response: 7E80462032B28
+- expected_values:
+    TAURUS_ACC_POS: 68
+  response: 7E80462032B88

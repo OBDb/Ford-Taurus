@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     TAURUS_ENG_LOAD_ACT: 56.86275
   response: 7E80562F4430091
+- expected_values:
+    TAURUS_ENG_LOAD_ACT: 86.27451
+  response: 7E80562F44300DC
