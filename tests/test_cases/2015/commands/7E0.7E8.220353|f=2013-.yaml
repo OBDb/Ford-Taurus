@@ -4,6 +4,9 @@ test_cases:
     TAURUS_BARO: 13.487
   response: '7E8056203530174'
 - expected_values:
+    TAURUS_BARO: 13.8133
+  response: 7E805620353017D
+- expected_values:
     TAURUS_BARO: 13.92207
   response: '7E8056203530180'
 - expected_values:
