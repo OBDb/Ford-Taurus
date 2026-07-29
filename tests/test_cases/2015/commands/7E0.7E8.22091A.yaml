@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     TAURUS_ETC_ANG_DES: 16.09766
   response: 7E80562091A2032
+- expected_values:
+    TAURUS_ETC_ANG_DES: 81
+  response: 7E80562091AA200

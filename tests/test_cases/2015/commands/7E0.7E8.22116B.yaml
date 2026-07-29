@@ -4,6 +4,9 @@ test_cases:
     TAURUS_IGN_TIM_CYL1: 12.25
   response: 7E80562116B0031
 - expected_values:
+    TAURUS_IGN_TIM_CYL1: 13.75
+  response: 7E80562116B0037
+- expected_values:
     TAURUS_IGN_TIM_CYL1: 15.25
   response: 7E80562116B003D
 - expected_values:
