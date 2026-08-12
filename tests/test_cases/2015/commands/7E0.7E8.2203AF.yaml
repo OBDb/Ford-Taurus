@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     TAURUS_TRQ_CTRL_REQ: 6
   response: 7E8046203AF06
+- expected_values:
+    TAURUS_TRQ_CTRL_REQ: 9
+  response: 7E8046203AF09
+- expected_values:
+    TAURUS_TRQ_CTRL_REQ: 14
+  response: 7E8046203AF0E
+- expected_values:
+    TAURUS_TRQ_CTRL_REQ: 16
+  response: 7E8046203AF10

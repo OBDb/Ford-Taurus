@@ -4,8 +4,8 @@ test_cases:
     TAURUS_IGN_CORR_CYL1: 0
   response: 7E8056203EC0000
 - expected_values:
-    TAURUS_IGN_CORR_CYL1: -3.99414
-  response: 7E8056203ECF803
+    TAURUS_IGN_CORR_CYL1: -2.52148
+  response: 7E8056203ECFAF5
 - expected_values:
-    TAURUS_IGN_CORR_CYL1: -1.5
-  response: 7E8056203ECFD00
+    TAURUS_IGN_CORR_CYL1: -0.36133
+  response: 7E8056203ECFF47
