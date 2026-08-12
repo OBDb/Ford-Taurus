@@ -4,14 +4,8 @@ test_cases:
     TAURUS_VCT_EXH_DES: 0
   response: 7E8056203BB0000
 - expected_values:
-    TAURUS_VCT_EXH_DES: 10
-  response: 7E8056203BB00A0
+    TAURUS_VCT_EXH_DES: 47.875
+  response: 7E8056203BB02FE
 - expected_values:
-    TAURUS_VCT_EXH_DES: 21.625
-  response: 7E8056203BB015A
-- expected_values:
-    TAURUS_VCT_EXH_DES: 49.25
-  response: 7E8056203BB0314
-- expected_values:
-    TAURUS_VCT_EXH_DES: 49.6875
-  response: 7E8056203BB031B
+    TAURUS_VCT_EXH_DES: 48.375
+  response: 7E8056203BB0306

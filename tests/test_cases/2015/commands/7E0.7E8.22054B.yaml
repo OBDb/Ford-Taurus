@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.22054B
 test_cases:
 - expected_values:
+    TAURUS_PCM_ENG_OIL_LIFE_REM: 20
+  response: 7E80462054B14
+- expected_values:
+    TAURUS_PCM_ENG_OIL_LIFE_REM: 23
+  response: 7E80462054B17
+- expected_values:
+    TAURUS_PCM_ENG_OIL_LIFE_REM: 28
+  response: 7E80462054B1C
+- expected_values:
     TAURUS_PCM_ENG_OIL_LIFE_REM: 33
   response: 7E80462054B21
 - expected_values:
