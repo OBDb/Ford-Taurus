@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.220404
 test_cases:
 - expected_values:
-    TAURUS_KS2_RAW: 92
-  response: 7E805620404005C
+    TAURUS_KS2_RAW: 67
+  response: '7E8056204040043'
 - expected_values:
-    TAURUS_KS2_RAW: 141
-  response: 7E805620404008D
+    TAURUS_KS2_RAW: 238
+  response: 7E80562040400EE
 - expected_values:
-    TAURUS_KS2_RAW: 377
-  response: '7E8056204040179'
+    TAURUS_KS2_RAW: 265
+  response: '7E8056204040109'
 - expected_values:
     TAURUS_KS2_RAW: 2339
   response: '7E8056204040923'

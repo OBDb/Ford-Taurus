@@ -8,6 +8,15 @@ test_cases:
   response: 7E8056203E8D5CF
 - expected_values:
     TAURUS_OAR: 0
+  response: 7E8056203E8E0F8
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8E85C
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8E8CE
+- expected_values:
+    TAURUS_OAR: 0
   response: 7E8056203E8E8E6
 - expected_values:
     TAURUS_OAR: 0
@@ -15,3 +24,6 @@ test_cases:
 - expected_values:
     TAURUS_OAR: 0
   response: 7E8056203E8EF29
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8F85F

@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.22031B|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_VCT_EXH_ERR: 0.25
-  response: 7E80562031B0004
+    TAURUS_VCT_EXH_ERR: 0
+  response: 7E80562031B0000
 - expected_values:
     TAURUS_VCT_EXH_ERR: 50
-  response: 7E80562031BFFD8
+  response: 7E80562031BFFD1
 - expected_values:
     TAURUS_VCT_EXH_ERR: 50
-  response: 7E80562031BFFF8
-- expected_values:
-    TAURUS_VCT_EXH_ERR: 50
-  response: 7E80562031BFFF9
-- expected_values:
-    TAURUS_VCT_EXH_ERR: 50
-  response: 7E80562031BFFFA
+  response: 7E80562031BFFFF

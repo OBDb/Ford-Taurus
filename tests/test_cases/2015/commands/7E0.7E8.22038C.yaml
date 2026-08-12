@@ -1,17 +1,8 @@
 command_id: 7E0.7E8.22038C
 test_cases:
 - expected_values:
-    TAURUS_PCM_MISF_ACCEL_CYL5_NORM: 0.03125
-  response: 7E80462038C02
-- expected_values:
-    TAURUS_PCM_MISF_ACCEL_CYL5_NORM: 0.20312
-  response: 7E80462038C0D
-- expected_values:
-    TAURUS_PCM_MISF_ACCEL_CYL5_NORM: -0.1875
-  response: 7E80462038CF4
-- expected_values:
-    TAURUS_PCM_MISF_ACCEL_CYL5_NORM: -0.125
-  response: 7E80462038CF8
+    TAURUS_PCM_MISF_ACCEL_CYL5_NORM: 0
+  response: 7E80462038C00
 - expected_values:
     TAURUS_PCM_MISF_ACCEL_CYL5_NORM: -0.01562
   response: 7E80462038CFF

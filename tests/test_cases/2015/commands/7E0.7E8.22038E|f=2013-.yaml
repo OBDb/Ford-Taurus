@@ -2,19 +2,10 @@ command_id: 7E0.7E8.22038E|f=2013-
 test_cases:
 - expected_values:
     TAURUS_EVAP_V: 5
+  response: 7E80562038E09DA
+- expected_values:
+    TAURUS_EVAP_V: 5
+  response: 7E80562038E09FD
+- expected_values:
+    TAURUS_EVAP_V: 5
   response: 7E80562038E0A02
-- expected_values:
-    TAURUS_EVAP_V: 5
-  response: 7E80562038E0A70
-- expected_values:
-    TAURUS_EVAP_V: 5
-  response: 7E80562038E0A84
-- expected_values:
-    TAURUS_EVAP_V: 5
-  response: 7E80562038E0A93
-- expected_values:
-    TAURUS_EVAP_V: 5
-  response: 7E80562038E0A98
-- expected_values:
-    TAURUS_EVAP_V: 5
-  response: 7E80562038E0AC0

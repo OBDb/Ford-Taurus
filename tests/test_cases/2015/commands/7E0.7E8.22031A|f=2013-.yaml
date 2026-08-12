@@ -1,17 +1,11 @@
 command_id: 7E0.7E8.22031A|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_VCT_INT_ERR: 0.1875
-  response: 7E80562031A0003
+    TAURUS_VCT_INT_ERR: 0
+  response: 7E80562031A0000
 - expected_values:
-    TAURUS_VCT_INT_ERR: 0.3125
-  response: 7E80562031A0005
+    TAURUS_VCT_INT_ERR: -6.6875
+  response: 7E80562031AFF95
 - expected_values:
-    TAURUS_VCT_INT_ERR: 0.4375
-  response: 7E80562031A0007
-- expected_values:
-    TAURUS_VCT_INT_ERR: -5.375
-  response: 7E80562031AFFAA
-- expected_values:
-    TAURUS_VCT_INT_ERR: -0.375
-  response: 7E80562031AFFFA
+    TAURUS_VCT_INT_ERR: -0.0625
+  response: 7E80562031AFFFF

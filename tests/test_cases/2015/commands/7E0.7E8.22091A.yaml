@@ -4,14 +4,8 @@ test_cases:
     TAURUS_ETC_ANG_DES: 3.07617
   response: 7E80562091A0627
 - expected_values:
-    TAURUS_ETC_ANG_DES: 3.75781
-  response: 7E80562091A0784
-- expected_values:
-    TAURUS_ETC_ANG_DES: 6.43945
-  response: 7E80562091A0CE1
-- expected_values:
-    TAURUS_ETC_ANG_DES: 16.09766
-  response: 7E80562091A2032
+    TAURUS_ETC_ANG_DES: 4.49805
+  response: 7E80562091A08FF
 - expected_values:
     TAURUS_ETC_ANG_DES: 81
   response: 7E80562091AA200
