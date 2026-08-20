@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221126
 test_cases:
 - expected_values:
+    TAURUS_ERT: 56
+  response: '7E80462112638'
+- expected_values:
     TAURUS_ERT: 129
   response: '7E80462112681'
 - expected_values:
