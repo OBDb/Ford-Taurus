@@ -15,3 +15,8 @@ test_cases:
 - expected_values:
     TAURUS_STFT: 16.40625
   response: 7E80462F40695
+- expected_values:
+    TAURUS_STFT: 0
+  response: |-
+    SEARCHING...
+    7E80462F40680

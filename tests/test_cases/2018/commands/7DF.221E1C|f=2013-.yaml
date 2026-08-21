@@ -60,15 +60,15 @@ test_cases:
     SEARCHING...
     7E805621E1C0418
 - expected_values:
-    TAURUS_TOT: 66.1875
-  response: |-
-    SEARCHING...
-    7E805621E1C0423
-- expected_values:
     TAURUS_TOT: 76.8125
   response: |-
     SEARCHING...
     7E805621E1C04CD
+- expected_values:
+    TAURUS_TOT: 77
+  response: |-
+    SEARCHING...
+    7E805621E1C04D0
 - expected_values:
     TAURUS_TOT: 89.375
   response: |-
