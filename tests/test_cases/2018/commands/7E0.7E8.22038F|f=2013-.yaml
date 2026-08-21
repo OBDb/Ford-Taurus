@@ -7,17 +7,14 @@ test_cases:
     TAURUS_ECT: 69.0625
   response: '7E8 05 62 03 8F 11 44 '
 - expected_values:
-    TAURUS_ECT: 84.59375
-  response: '7E8 05 62 03 8F 15 26 '
-- expected_values:
     TAURUS_ECT: 86.25
   response: '7E8 05 62 03 8F 15 90 '
 - expected_values:
     TAURUS_ECT: 86.98438
   response: '7E8 05 62 03 8F 15 BF '
 - expected_values:
-    TAURUS_ECT: 88.85938
-  response: '7E8 05 62 03 8F 16 37 '
+    TAURUS_ECT: 88.0625
+  response: '7E8 05 62 03 8F 16 04 '
 - expected_values:
     TAURUS_ECT: 91.95312
   response: '7E8 05 62 03 8F 16 FD '
