@@ -10,5 +10,5 @@ test_cases:
     TAURUS_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    TAURUS_VSS: 87
-  response: 7E80462F40D57
+    TAURUS_VSS: 109
+  response: 7E80462F40D6D
