@@ -4,5 +4,5 @@ test_cases:
     TAURUS_STFT: -5.46875
   response: 7E80462F40679
 - expected_values:
-    TAURUS_STFT: 5.46875
-  response: 7E80462F40687
+    TAURUS_STFT: 10.15625
+  response: 7E80462F4068D
