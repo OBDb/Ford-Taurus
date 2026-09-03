@@ -99,7 +99,7 @@
   "signals": [
     {"id": "TAURUS_VCT_INT_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Camshaft solenoid duty cycle, intake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2013, "years": [2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_VCT_EXH_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Camshaft solenoid duty cycle, exhaust"}
   ]},
@@ -107,7 +107,7 @@
   "signals": [
     {"id": "TAURUS_VCT_INT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 0, "div": 16, "unit": "degrees" }, "name": "Camshaft position, intake actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2013, "years": [2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_VCT_EXH_ACT", "path": "Engine", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Camshaft position, exhaust actual"}
   ]},
@@ -115,7 +115,7 @@
   "signals": [
     {"id": "TAURUS_VCT_INT_ERR", "path": "Engine", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Camshaft position error, intake"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "031B"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2013, "years": [2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "031B"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_VCT_EXH_ERR", "path": "Engine", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Camshaft position error, exhaust"}
   ]},
@@ -203,7 +203,7 @@
   "signals": [
     {"id": "TAURUS_AAT_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Ambient temperature sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BB"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "to": 2013, "years": [2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BB"}, "freq": 1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_VCT_EXH_DES", "path": "Engine", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "Camshaft position, exhaust desired"}
   ]},
@@ -311,7 +311,7 @@
   "signals": [
     {"id": "TAURUS_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2016] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2016] },
   "signals": [
     {"id": "TAURUS_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
   ]},

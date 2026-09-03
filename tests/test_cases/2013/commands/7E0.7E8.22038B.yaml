@@ -4,6 +4,9 @@ test_cases:
     TAURUS_PCM_MISF_ACCEL_CYL4_NORM: 0
   response: 7E80462038B00
 - expected_values:
+    TAURUS_PCM_MISF_ACCEL_CYL4_NORM: 0.125
+  response: 7E80462038B08
+- expected_values:
     TAURUS_PCM_MISF_ACCEL_CYL4_NORM: 0.15625
   response: 7E80462038B0A
 - expected_values:
