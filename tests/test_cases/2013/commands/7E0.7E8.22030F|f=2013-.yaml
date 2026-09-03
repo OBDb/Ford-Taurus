@@ -10,5 +10,5 @@ test_cases:
     TAURUS_CL: 1.0004
   response: 7E80562030F800D
 - expected_values:
-    TAURUS_CL: 1.0087
-  response: 7E80562030F811D
+    TAURUS_CL: 1.00848
+  response: 7E80562030F8116

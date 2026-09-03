@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TAURUS_OAR: 0
   response: 7E8056203E8C7BB
+- expected_values:
+    TAURUS_OAR: 0
+  response: 7E8056203E8E69D

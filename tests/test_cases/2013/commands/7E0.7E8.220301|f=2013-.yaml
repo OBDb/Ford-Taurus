@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.220301|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_MAP_V: 0.41504
-  response: 7E80562030101A9
-- expected_values:
-    TAURUS_MAP_V: 0.52246
-  response: '7E8056203010217'
+    TAURUS_MAP_V: 0
+  response: '7E8056203010000'
 - expected_values:
     TAURUS_MAP_V: 0.74219
   response: 7E80562030102F8

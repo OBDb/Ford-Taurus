@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.220353|f=2013-
 test_cases:
 - expected_values:
+    TAURUS_BARO: 13.08819
+  response: '7E8056203530169'
+- expected_values:
     TAURUS_BARO: 14.24836
   response: '7E8056203530189'
 - expected_values:
