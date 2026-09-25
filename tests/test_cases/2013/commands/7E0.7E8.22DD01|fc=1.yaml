@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    TAURUS_ODO_7E0: 258969
+  response: 7E80662DD0103F399
+- expected_values:
+    TAURUS_ODO_7E0: 258970
+  response: 7E80662DD0103F39A
+- expected_values:
+    TAURUS_ODO_7E0: 258971
+  response: 7E80662DD0103F39B
+- expected_values:
+    TAURUS_ODO_7E0: 258972
+  response: 7E80662DD0103F39C
+- expected_values:
+    TAURUS_ODO_7E0: 263844
+  response: 7E80662DD010406A4
+- expected_values:
+    TAURUS_ODO_7E0: 263845
+  response: 7E80662DD010406A5
