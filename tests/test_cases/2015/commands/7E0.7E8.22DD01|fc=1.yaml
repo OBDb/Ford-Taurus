@@ -4,5 +4,8 @@ test_cases:
     TAURUS_ODO_7E0: 366304
   response: 7E80662DD010596E0
 - expected_values:
-    TAURUS_ODO_7E0: 366329
-  response: 7E80662DD010596F9
+    TAURUS_ODO_7E0: 366335
+  response: 7E80662DD010596FF
+- expected_values:
+    TAURUS_ODO_7E0: 366336
+  response: 7E80662DD01059700
