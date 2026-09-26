@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221279|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_IAT_SENS_V: 1.24633
+  response: 7E80562127900FF
+- expected_values:
+    TAURUS_IAT_SENS_V: 1.25122
+  response: '7E8056212790100'
+- expected_values:
+    TAURUS_IAT_SENS_V: 2.52688
+  response: '7E8056212790205'

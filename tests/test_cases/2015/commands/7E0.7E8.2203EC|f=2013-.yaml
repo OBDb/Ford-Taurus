@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2203EC|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_IGN_CORR_CYL1: 0
+  response: 7E8056203EC0000
+- expected_values:
+    TAURUS_IGN_CORR_CYL1: -2.52148
+  response: 7E8056203ECFAF5
+- expected_values:
+    TAURUS_IGN_CORR_CYL1: -0.36133
+  response: 7E8056203ECFF47
