@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     TAURUS_STEER_ANG: 6
   response: '768056232018078'
+- expected_values:
+    TAURUS_STEER_ANG: 112
+  response: 7680562320188C0
+- expected_values:
+    TAURUS_STEER_ANG: 114
+  response: '7680562320188E8'
+- expected_values:
+    TAURUS_STEER_ANG: 115
+  response: 7680562320188FC
