@@ -466,7 +466,7 @@
   "signals": [
     {"id": "TAURUS_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2016, 2017], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2016, 2017], "from": 2019 },
   "signals": [
     {"id": "TAURUS_ODO_7E0", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
