@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F404|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_ENG_LOAD_PCT: 12.54902
+  response: 7E80462F40420
+- expected_values:
+    TAURUS_ENG_LOAD_PCT: 68.23529
+  response: 7E80462F404AE
