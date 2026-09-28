@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    TAURUS_CMD_GEN_V: 13.93582
+  response: 7E8056203046F8D
+- expected_values:
+    TAURUS_CMD_GEN_V: 14.11442
+  response: 7E80562030470FB
+- expected_values:
+    TAURUS_CMD_GEN_V: 14.11735
+  response: '7E8056203047101'
