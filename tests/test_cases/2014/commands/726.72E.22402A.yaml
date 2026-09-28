@@ -1,0 +1,26 @@
+command_id: 726.72E.22402A
+test_cases:
+- expected_values:
+    TAURUS_VEH_BAT_V: 6.05
+  response: 72E0462402A97
+- expected_values:
+    TAURUS_VEH_BAT_V: 6
+  response: 72E0462402A9E
+- expected_values:
+    TAURUS_VEH_BAT_V: 6.05
+  response: 72E0462402A9F
+- expected_values:
+    TAURUS_VEH_BAT_V: 6
+  response: 72E0462402AA0
+- expected_values:
+    TAURUS_VEH_BAT_V: 6.05
+  response: 72E0462402AA1
+- expected_values:
+    TAURUS_VEH_BAT_V: 6
+  response: 72E0462402AA2
+- expected_values:
+    TAURUS_VEH_BAT_V: 6.05
+  response: 72E0462402AA3
+- expected_values:
+    TAURUS_VEH_BAT_V: 6
+  response: 72E0462402AA4
