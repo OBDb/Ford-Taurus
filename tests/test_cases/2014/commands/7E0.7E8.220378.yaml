@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220378
+test_cases:
+- expected_values:
+    TAURUS_GEN_CTRL: 28.70101
+  response: 7E80562037824BC
+- expected_values:
+    TAURUS_GEN_CTRL: 33.77343
+  response: 7E8056203782B3A
+- expected_values:
+    TAURUS_GEN_CTRL: 41.99857
+  response: 7E80562037835C1
+- expected_values:
+    TAURUS_GEN_CTRL: 96.65989
+  response: 7E8056203787BB7

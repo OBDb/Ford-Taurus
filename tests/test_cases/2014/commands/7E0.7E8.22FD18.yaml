@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22FD18
+test_cases:
+- expected_values:
+    TAURUS_AC_P_7E0: 0
+  response: 7E80762FD18000343DD
+- expected_values:
+    TAURUS_AC_P_7E0: 0
+  response: 7E80762FD18000349F6
+- expected_values:
+    TAURUS_AC_P_7E0: 0
+  response: 7E80762FD1800034D02
+- expected_values:
+    TAURUS_AC_P_7E0: 0
+  response: 7E80762FD1800034E2E
