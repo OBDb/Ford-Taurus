@@ -40,11 +40,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "401E"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
-    {"id": "TAURUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative charge when ignition is on"}
+    {"id": "TAURUS_NORM_CUM_CHG_IGN_ON", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative charge when ignition is on"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4021"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
-    {"id": "TAURUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine on"}
+    {"id": "TAURUS_NORM_CUM_DCHG_BAT_ON", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative discharge from battery with engine on"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4025"}, "freq": 1,
   "signals": [
@@ -52,7 +52,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4026"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
-    {"id": "TAURUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0.1, "div": 10, "unit": "offon" }, "name": "Normalized cumulative discharge from battery with engine off"}
+    {"id": "TAURUS_NORM_CUM_DCHG_BAT_OFF", "path": "Battery", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "scalar" }, "name": "Normalized cumulative discharge from battery with engine off"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4027"}, "freq": 3600, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
@@ -68,11 +68,11 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "402A"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_VEH_BAT_V", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 6.05, "div": 20, "add": 6, "unit": "offon" }, "name": "Vehicle battery voltage"}
+    {"id": "TAURUS_VEH_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "min": 6, "div": 20, "add": 6, "unit": "volts" }, "name": "Vehicle battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "402B"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_VEH_BAT_CURRENT", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": -126, "min": -127, "add": -127, "unit": "offon" }, "name": "Vehicle battery current"}
+    {"id": "TAURUS_VEH_BAT_CURRENT", "path": "Battery", "fmt": { "len": 8, "max": 128, "min": -127, "add": -127, "unit": "amps" }, "name": "Vehicle battery current"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "41A9"}, "freq": 5,
   "signals": [
@@ -87,7 +87,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "41E8"}, "freq": 1,
   "signals": [
-    {"id": "TAURUS_VEH_BAT_B_V", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 6.05, "div": 20, "add": 6, "unit": "offon" }, "name": "Vehicle battery B voltage"}
+    {"id": "TAURUS_VEH_BAT_B_V", "path": "Battery", "fmt": { "len": 8, "max": 18.75, "min": 6, "div": 20, "add": 6, "unit": "volts" }, "name": "Vehicle battery B voltage"}
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "4209"}, "freq": 1,
   "signals": [
@@ -99,7 +99,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "dbg": true, "cmd": {"22": "423C"}, "freq": 1,
   "signals": [
-    {"id": "TAURUS_VEH_BAT_B_CURRENT", "path": "Battery", "fmt": {"bix": 7, "len": 1, "max": 0, "min": -0.0312, "div": 32, "sign": true, "unit": "offon" }, "name": "Vehicle battery B current"}
+    {"id": "TAURUS_VEH_BAT_B_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 1023.96, "min": -1024, "div": 32, "sign": true, "unit": "amps" }, "name": "Vehicle battery B current"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "DD01"}, "freq": 30, "filter": { "from": 2013 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
