@@ -60,7 +60,7 @@
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4028"}, "freq": 10, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Battery charge"}
+    {"id": "TAURUS_BATT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Battery charge"}
   ]},
 { "hdr": "726", "rax": "72E", "cmd": {"22": "4029"}, "freq": 10, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
@@ -127,7 +127,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_LAT_ANG", "path": "Movement", "fmt": { "len": 8, "max": 90, "min": -90, "sign": true, "unit": "degrees" }, "name": "Lateral angle"}
+    {"id": "TAURUS_LAT_ANG", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Lateral angle"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
@@ -266,7 +266,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_EVAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 195597, "div": 978941, "unit": "volts" }, "name": "Evaporative pressure sensor voltage"}
+    {"id": "TAURUS_EVAP_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Evaporative pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
