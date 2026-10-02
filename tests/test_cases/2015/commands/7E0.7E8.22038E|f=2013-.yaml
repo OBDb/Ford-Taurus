@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22038E|f=2013-
 test_cases:
 - expected_values:
-    TAURUS_EVAP_V: 5
+    TAURUS_EVAP_V: 2.522
   response: 7E80562038E09DA
 - expected_values:
-    TAURUS_EVAP_V: 5
+    TAURUS_EVAP_V: 2.557
   response: 7E80562038E09FD
 - expected_values:
-    TAURUS_EVAP_V: 5
+    TAURUS_EVAP_V: 2.562
   response: 7E80562038E0A02
