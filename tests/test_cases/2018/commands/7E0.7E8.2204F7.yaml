@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2204F7
+test_cases:
+- expected_values:
+    TAURUS_GEN_CURRENT: 5.18584
+  response: 7E8056204F7014C
+- expected_values:
+    TAURUS_GEN_CURRENT: 5.20146
+  response: 7E8056204F7014D
+- expected_values:
+    TAURUS_GEN_CURRENT: 5.467
+  response: 7E8056204F7015E
+- expected_values:
+    TAURUS_GEN_CURRENT: 5.49824
+  response: 7E8056204F70160
+- expected_values:
+    TAURUS_GEN_CURRENT: 5.76378
+  response: 7E8056204F70171
+- expected_values:
+    TAURUS_GEN_CURRENT: 6.02932
+  response: 7E8056204F70182
+- expected_values:
+    TAURUS_GEN_CURRENT: 6.35734
+  response: 7E8056204F70197
+- expected_values:
+    TAURUS_GEN_CURRENT: 6.62288
+  response: 7E8056204F701A8
