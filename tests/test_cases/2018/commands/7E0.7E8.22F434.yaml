@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 14.03447
+  response: 7E80762F4347AB47F99
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 14.5523
+  response: 7E80762F4347F3B7FDF
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 14.65863
+  response: 7E80762F43480297FF9
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 14.79356
+  response: 7E80762F43481578000
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 14.98077
+  response: 7E80762F43482FA800E
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 15.02991
+  response: 7E80762F43483688015
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 15.18182
+  response: 7E80762F43484BC801A
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 15.2332
+  response: 7E80762F434852F8020
+- expected_values:
+    TAURUS_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF83A4
