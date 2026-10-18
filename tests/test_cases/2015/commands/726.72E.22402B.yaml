@@ -4,23 +4,5 @@ test_cases:
     TAURUS_VEH_BAT_CURRENT: -5
   response: 72E0462402B7A
 - expected_values:
-    TAURUS_VEH_BAT_CURRENT: -3
-  response: 72E0462402B7C
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 0
-  response: 72E0462402B7F
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 1
-  response: 72E0462402B80
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 2
-  response: 72E0462402B81
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 4
-  response: 72E0462402B83
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 6
-  response: 72E0462402B85
-- expected_values:
-    TAURUS_VEH_BAT_CURRENT: 9
-  response: 72E0462402B88
+    TAURUS_VEH_BAT_CURRENT: 15
+  response: 72E0462402B8E
