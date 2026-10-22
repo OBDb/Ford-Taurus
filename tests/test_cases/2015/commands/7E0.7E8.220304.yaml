@@ -7,8 +7,8 @@ test_cases:
     TAURUS_CMD_GEN_V: 13.60593
   response: 7E8056203046CE9
 - expected_values:
-    TAURUS_CMD_GEN_V: 13.76697
-  response: 7E8056203046E33
+    TAURUS_CMD_GEN_V: 13.88799
+  response: 7E8056203046F2B
 - expected_values:
     TAURUS_CMD_GEN_V: 14.64439
   response: '7E8056203047539'
