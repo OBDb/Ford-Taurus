@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAURUS_NORM_CUM_DCHG_BAT_OFF: 0.1
   response: '72E056240260001'
+- expected_values:
+    TAURUS_NORM_CUM_DCHG_BAT_OFF: 0.2
+  response: '72E056240260002'
