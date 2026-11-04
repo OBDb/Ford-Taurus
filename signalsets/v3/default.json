@@ -105,7 +105,7 @@
   "signals": [
     {"id": "TAURUS_ODO_726", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, instrument panel", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 2, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 2, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_PARK_BRK", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake"}
   ]},
@@ -160,7 +160,7 @@
   "signals": [
     {"id": "TAURUS_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "unit": "volts" }, "name": "Manifold pressure sensor voltage", "description": "Typically varies from 1 volt at idle to 5 volts during wide open throttle."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2016, 2017] },
   "signals": [
     {"id": "TAURUS_CMD_GEN_V", "path": "Battery", "fmt": { "len": 16, "max": 16, "mul": 0.000488, "unit": "volts" }, "name": "Commanded generator voltage"}
   ]},
@@ -236,7 +236,7 @@
   "signals": [
     {"id": "TAURUS_RO2_V", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "O2 sensor voltage, rear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0370"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0370"}, "freq": 1, "dbgfilter": { "to": 2025 },
   "signals": [
     {"id": "TAURUS_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
@@ -264,7 +264,7 @@
   "signals": [
     {"id": "TAURUS_PCM_MISF_ACCEL_CYL5_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
     {"id": "TAURUS_EVAP_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Evaporative pressure sensor voltage"}
   ]},

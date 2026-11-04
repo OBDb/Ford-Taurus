@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220548|f=2013-
+test_cases:
+- expected_values:
+    TAURUS_LPFP_ACT: 79.70006
+  response: 7E805620548044B

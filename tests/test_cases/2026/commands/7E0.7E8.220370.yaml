@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220370
+test_cases:
+- expected_values:
+    TAURUS_MAP_HIRES: 36
+  response: '7E8056203700090'
+- expected_values:
+    TAURUS_MAP_HIRES: 36.5
+  response: '7E8056203700092'
+- expected_values:
+    TAURUS_MAP_HIRES: 37.25
+  response: '7E8056203700095'
+- expected_values:
+    TAURUS_MAP_HIRES: 37.75
+  response: '7E8056203700097'
+- expected_values:
+    TAURUS_MAP_HIRES: 38
+  response: '7E8056203700098'
