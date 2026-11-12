@@ -4,8 +4,8 @@ test_cases:
     TAURUS_TP_FL: 36.35
   response: '72E 05 62 28 13 02 D7 '
 - expected_values:
-    TAURUS_TP_FL: 28.35
-  response: '72E056228130237'
+    TAURUS_TP_FL: 28.3
+  response: '72E056228130236'
 - expected_values:
     TAURUS_TP_FL: 38.3
   response: 72E0562281302FE
