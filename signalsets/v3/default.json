@@ -131,7 +131,7 @@
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "TAURUS_BRK_FL_P", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Brake hydraulic pressure"}
+    {"id": "TAURUS_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure"}
   ]},
 { "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.1, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016], "from": 2019 },
   "signals": [
@@ -314,7 +314,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
-    {"id": "TAURUS_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
+    {"id": "TAURUS_OAR", "path": "Engine", "fmt": { "len": 16, "max": 1, "min": -1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjustment"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
@@ -727,7 +727,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 0.5, "filter": { "from": 2013 }, "dbgfilter": { "years": [2016] },
   "signals": [
-    {"id": "TAURUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
+    {"id": "TAURUS_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "absoluteEngineLoad"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45E"}, "freq": 1,
   "signals": [

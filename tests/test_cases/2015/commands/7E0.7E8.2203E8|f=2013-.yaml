@@ -4,29 +4,29 @@ test_cases:
     TAURUS_OAR: 0.04327
   response: 7E8056203E802C5
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.65924
   response: 7E8056203E8D5CF
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.48486
   response: 7E8056203E8E0F8
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.36938
   response: 7E8056203E8E85C
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.36243
   response: 7E8056203E8E8CE
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.36096
   response: 7E8056203E8E8E6
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.34735
   response: 7E8056203E8E9C5
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.33575
   response: 7E8056203E8EA83
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.26312
   response: 7E8056203E8EF29
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.1192
   response: 7E8056203E8F85F
