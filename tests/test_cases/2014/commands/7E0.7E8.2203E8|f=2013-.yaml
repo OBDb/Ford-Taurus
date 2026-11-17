@@ -7,8 +7,8 @@ test_cases:
     TAURUS_OAR: 1
   response: 7E8056203E84000
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.57855
   response: 7E8056203E8DAF9
 - expected_values:
-    TAURUS_OAR: 0
+    TAURUS_OAR: -0.01849
   response: 7E8056203E8FED1
