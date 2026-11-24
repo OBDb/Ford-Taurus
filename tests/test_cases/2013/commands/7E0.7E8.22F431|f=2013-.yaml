@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     TAURUS_DIST_DTC_CLR: 5958
   response: 7E80562F4311746
+- expected_values:
+    TAURUS_DIST_DTC_CLR: 36211
+  response: 7E80562F4318D73
