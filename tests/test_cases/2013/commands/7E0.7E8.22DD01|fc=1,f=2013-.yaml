@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22DD01|fc=1,f=2013-
 test_cases:
 - expected_values:
+    TAURUS_ODO_7E0: 236541
+  response: 7E80662DD01039BFD
+- expected_values:
     TAURUS_ODO_7E0: 258969
   response: 7E80662DD0103F399
 - expected_values:
