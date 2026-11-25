@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     TAURUS_ABS_LATERAL_ACCEL: 0.22
   response: 76805623A51000B
+- expected_values:
+    TAURUS_ABS_LATERAL_ACCEL: 0.3
+  response: 76805623A51000F
+- expected_values:
+    TAURUS_ABS_LATERAL_ACCEL: 0.5
+  response: 76805623A510019
