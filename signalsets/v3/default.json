@@ -141,14 +141,14 @@
   "signals": [
     {"id": "TAURUS_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 1638, "min": -1638, "div": 20, "add": -1638.4, "unit": "degrees" }, "name": "Steering angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3987"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3987"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "TAURUS_ABS_WHL_SPD_1", "path": "Control", "fmt": {           "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 1"},
     {"id": "TAURUS_ABS_WHL_SPD_2", "path": "Control", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 2"},
     {"id": "TAURUS_ABS_WHL_SPD_3", "path": "Control", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 3"},
     {"id": "TAURUS_ABS_WHL_SPD_4", "path": "Control", "fmt": {"bix": 24, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Anti-lock brake wheel speed 4"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "3A51"}, "freq": 0.25,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "3A51"}, "freq": 0.25, "dbgfilter": { "to": 2008, "from": 2010 },
   "signals": [
     {"id": "TAURUS_ABS_LATERAL_ACCEL", "path": "Control", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "gravity" }, "name": "Anti-lock brake lateral acceleration"}
   ]},

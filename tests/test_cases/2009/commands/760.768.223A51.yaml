@@ -1,0 +1,5 @@
+command_id: 760.768.223A51
+test_cases:
+- expected_values:
+    TAURUS_ABS_LATERAL_ACCEL: 0.22
+  response: 76805623A51000B
