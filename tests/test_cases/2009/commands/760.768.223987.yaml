@@ -1,6 +1,18 @@
 command_id: 760.768.223987
 test_cases:
 - expected_values:
+    TAURUS_ABS_WHL_SPD_1: 0
+    TAURUS_ABS_WHL_SPD_2: 0
+    TAURUS_ABS_WHL_SPD_3: 0
+    TAURUS_ABS_WHL_SPD_4: 0
+  response: '7680762398700000000'
+- expected_values:
+    TAURUS_ABS_WHL_SPD_1: 27
+    TAURUS_ABS_WHL_SPD_2: 27
+    TAURUS_ABS_WHL_SPD_3: 27
+    TAURUS_ABS_WHL_SPD_4: 27
+  response: 768076239871B1B1B1B
+- expected_values:
     TAURUS_ABS_WHL_SPD_1: 51
     TAURUS_ABS_WHL_SPD_2: 50
     TAURUS_ABS_WHL_SPD_3: 51
